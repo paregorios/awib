@@ -1,0 +1,102 @@
+default namespace = ""
+
+start =
+    element image-info {
+        element status {
+            "draft" | "reviewed" | "corrected" | "ready" | "withdrawn" | "suppressed"
+        },
+        element license-release-verified { "no" | "yes" },
+        element isaw-publish-cleared { "no" | "yes" },
+        element review-notes { note* },
+        element image-files {
+            element image {
+                attribute href { xsd:anyURI },
+                attribute type { "thumbnail" }
+            },
+            element image {
+                attribute href { xsd:anyURI },
+                attribute type { "review" }
+            },
+            element image {
+                attribute href { xsd:anyURI },
+                attribute type { "master" }
+            },
+            element image {
+                attribute href { xsd:anyURI },
+                attribute type { "original" }
+            }
+        },
+        element info {
+            attribute type { "original" },
+            element original-file-name { xsd:normalizedString },
+            element origin { "digital camera" | "35mm slide" | "undetermined" },
+            infocontentbase
+        },
+        element info {
+            attribute type { "isaw" },
+            infocontentbase,
+            infocontentextended,
+            element notes { note* }
+        },
+        element change-history {
+            element change {
+                element date { xsd:date },
+                element agent { xsd:normalizedString },
+                description
+            }+
+            | empty
+        }
+    }
+description = element description { xsd:normalizedString }
+ancient-name = element ancient-name { xsd:normalizedString }
+modern-name = element modern-name { xsd:normalizedString }
+uri = element uri { xsd:anyURI }
+institution = element institution { xsd:normalizedString }
+date-photographed = element date-photographed { xsd:date | empty }
+date-scanned = element date-scanned { xsd:date | empty }
+copyright-holder = element copyright-holder { xsd:normalizedString }
+copyright-date = element copyright-date { xsd:date | empty }
+copyright-contact = element copyright-contact { xsd:normalizedString }
+license = element license { "cc-by" | "undetermined" }
+name = element name { xsd:normalizedString }
+note =
+    element note {
+        name,
+        element date { xsd:date },
+        element content { xsd:normalizedString }
+    }
+title = element title { xsd:normalizedString }
+flickr-url = element flickr-url { xsd:anyURI }
+fda-handle = element fda-handle { xsd:anyURI }
+photographer =
+    element photographer {
+        name
+        | (element given-name { xsd:normalizedString },
+           element family-name { xsd:normalizedString })
+    }
+authority = element authority { xsd:normalizedString }
+placecontent = ancient-name?, modern-name?, uri?
+photographed-place = element photographed-place { (placecontent, institution?) | text }
+find-place = element find-place { placecontent | "photographed-place" }
+original-place = element original-place { placecontent | ("photographed-place" | "find-place") }
+geography = element geography { photographed-place, find-place, original-place }
+chronology = element chronology { empty }
+prosopography = element prosopography { empty }
+typology =
+    element typology {
+        element keyword { xsd:normalizedString }*
+    }
+infocontentbase =
+    title,
+    flickr-url,
+    fda-handle,
+    photographer,
+    authority,
+    description,
+    date-photographed,
+    date-scanned,
+    copyright-holder,
+    copyright-date,
+    copyright-contact,
+    license
+infocontentextended = geography, chronology, prosopography, typology
