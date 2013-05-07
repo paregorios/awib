@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906041602403-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906041602403-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906041602403-master.tif"/>
+      <image type="original" href="../originals/isawi-200906041602403-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>dona220032.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned K McDonnell's 35 mm slide of Isreal on 2/20/98 Aqueduct feeding
+         Caesarea M. from North.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Caesarea, Aqueduct (III)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4745937704/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kathryn</given-name>
+         <family-name>McDonnell</family-name>
+      </photographer>
+      <authority/>
+      <description>A view of the Roman aqueduct that fed the ancient port city of Caesarea from the
+         north. </description>
+      <date-photographed/>
+      <date-scanned>1998-02-20</date-scanned>
+      <copyright-holder>Kathryn McDonnell</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Caesarea Maritima, Caesarea Palestina</ancient-name>
+            <modern-name>Caesarea</modern-name>
+            <uri>stratonos-pyrgos-caesarea-69-a4 </uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>rome</keyword>
+         <keyword>Roman</keyword>
+         <keyword>jewish</keyword>
+         <keyword>hasmonean</keyword>
+         <keyword>levant</keyword>
+         <keyword>israel</keyword>
+         <keyword>masonry</keyword>
+         <keyword>architecture</keyword>
+         <keyword>aqueduct</keyword>
+         <keyword>Caesarea</keyword>
+         <keyword>palestina</keyword>
+         <keyword>maritima</keyword>
+         <keyword>water</keyword>
+         <keyword>landscape</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-04</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for "isaw information" and "photographed
+            place"</description>
+      </change>
+      <change>
+         <date>2009-07-13</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+      <change>
+         <date>2010-06-29</date>
+         <agent>John Sarlitto</agent>
+         <description>Metadata updated; image cleared for publication</description>
+      </change>
+      <change>
+         <date>2010-06-29</date>
+         <agent>John Sarlitto</agent>
+         <description>Image published to Flickr; URL added</description>
+      </change>
+   </change-history>
+</image-info>

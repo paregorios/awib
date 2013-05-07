@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2011041917133711-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2011041917133711-review.jpg"/>
+      <image type="master" href="../masters/isawi-2011041917133711-master.tif"/>
+      <image type="original" href="../originals/isawi-2011041917133711-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P6046146.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2007-06-04</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Mosaic Floor at Carthage, Tunisia.</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5691247850/in/set-72157626655834898/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Graham</given-name>
+         <family-name>Claytor</family-name>
+      </photographer>
+      <authority/>
+      <description>View of a large mosaic floor at Carthage.</description>
+      <date-photographed>2007-06-04</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Graham Claytor</copyright-holder>
+      <copyright-date>2007-06-04</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Carthago, Karthago</ancient-name>
+            <modern-name>Carthage</modern-name>
+            <uri>http://pleiades.stoa.org/places/314921/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>excavation</keyword>
+         <keyword>hellenistic</keyword>
+         <keyword>roman</keyword>
+         <keyword>tunisia</keyword>
+         <keyword>carthage</keyword>
+         <keyword>karthago</keyword>
+         <keyword>carthago</keyword>
+         <keyword>polis</keyword>
+         <keyword>city</keyword>
+         <keyword>stone</keyword>
+         <keyword>floor</keyword>
+         <keyword>mosaic</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-19</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-19</date>
+         <agent>Irene Soto</agent>
+         <description>entered in isaw info, geography , and typology.</description>
+      </change>
+   </change-history>
+</image-info>

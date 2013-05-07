@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906041827333-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906041827333-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906041827333-master.tif"/>
+      <image type="original" href="../originals/isawi-200906041827333-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>dona220023.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned K McDonnell's 35 mm slide on 2/20/98 info on slide frame: Cosa,
+         looking South from city site. </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Cosa (IV)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4745391741/in/set-72157624259611567/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kathryn</given-name>
+         <family-name>McDonnell</family-name>
+      </photographer>
+      <authority/>
+      <description>View (to S) of the shoreline and the Tyrrhenian Sea from Cosa.</description>
+      <date-photographed/>
+      <date-scanned>1998-02-20</date-scanned>
+      <copyright-holder>Kathryn McDonnell</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Cosa</ancient-name>
+            <modern-name>Ansedonia </modern-name>
+            <uri>cosa-42-a4</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>rome</keyword>
+         <keyword>roman</keyword>
+         <keyword>italy</keyword>
+         <keyword>italian</keyword>
+         <keyword>cosa</keyword>
+         <keyword>ansedonia</keyword>
+         <keyword>colony</keyword>
+         <keyword>colonia</keyword>
+         <keyword>city</keyword>
+         <keyword>landscape</keyword>
+         <keyword>tyrrhenian</keyword>
+         <keyword>sea</keyword>
+         <keyword>shoreline</keyword>
+         <keyword>coast</keyword>
+         <keyword>shore</keyword>
+         <keyword>archaeology </keyword>
+         <keyword>history</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-04</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for "isaw information" and "photographed
+            place"</description>
+      </change>
+      <change>
+         <date>2009-07-13</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+      <change>
+         <date>2010-06-29</date>
+         <agent>John Sarlitto</agent>
+         <description>Metadata updated; image cleared for publication </description>
+      </change>
+      <change>
+         <date>2010-06-29</date>
+         <agent>John Sarlitto</agent>
+         <description>Image published to Flickr; URL added</description>
+      </change>
+   </change-history>
+</image-info>

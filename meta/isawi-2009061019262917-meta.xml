@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009061019262917-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009061019262917-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009061019262917-master.tif"/>
+      <image type="original" href="../originals/isawi-2009061019262917-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>z218035.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Rome, forum May 1988, Tom Elliott </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Roman Forum (II)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4924743958/in/set-72157622830939183/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Tom</given-name>
+         <family-name>Eliott</family-name>
+      </photographer>
+      <authority/>
+      <description>The Arch of Septimius Severus, under reconstruction in the Forum in
+         Rome.</description>
+      <date-photographed>1988-05-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Tom Elliott</copyright-holder>
+      <copyright-date>1988-05-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Roma</ancient-name>
+            <modern-name>Rome</modern-name>
+            <uri>roma-43-b2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Rome</keyword>
+         <keyword>forum</keyword>
+         <keyword>arch</keyword>
+         <keyword>reconstruction</keyword>
+         <keyword>restoration</keyword>
+         <keyword>Septimius</keyword>
+         <keyword>Severus</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-10</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-11</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for "isaw information"</description>
+      </change>
+      <change>
+         <date>2009-07-20</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

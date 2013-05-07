@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906091605232-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906091605232-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906091605232-master.tif"/>
+      <image type="original" href="../originals/isawi-200906091605232-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>dona220010.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned K McDonnell's 35 mm slide on 2/20/98 info on slide: Orvieto -
+         tomb (Etruscan), Italy. </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Etruscan Tombs at Orvieto (II)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4911116210/in/set-72157624768215492/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>K.</given-name>
+         <family-name>McDonnell</family-name>
+      </photographer>
+      <authority/>
+      <description>A view of the Etruscan tomb complex at Orvieto.</description>
+      <date-photographed/>
+      <date-scanned>1998-02-20</date-scanned>
+      <copyright-holder>K. McDonnell</copyright-holder>
+      <copyright-date>1998-02-20</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Orvieto</modern-name>
+            <uri>velzna-volsinii-veteres-urbiventus-42-c3</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>etruria</keyword>
+         <keyword>masonry</keyword>
+         <keyword>stone</keyword>
+         <keyword>structure</keyword>
+         <keyword>etruscan</keyword>
+         <keyword>velzna</keyword>
+         <keyword>volsinii</keyword>
+         <keyword>veteres</keyword>
+         <keyword>urbiventus</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>Etruscan</keyword>
+         <keyword>funerary</keyword>
+         <keyword>burial</keyword>
+         <keyword>tomb</keyword>
+         <keyword>Orvieto</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-09</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-09</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; modern photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-07-14</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

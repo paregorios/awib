@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906101509446-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906101509446-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906101509446-master.tif"/>
+      <image type="original" href="../originals/isawi-200906101509446-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>a401018.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned C Connor's 35mm slide of Piazza Armerina on 4/1/98 </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Mosaics at Villa Romana del Casale (XVI)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4987916176/in/set-72157624825203401/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Carolyn</given-name>
+         <family-name>Connor</family-name>
+      </photographer>
+      <authority/>
+      <description>A floor mosaic. located in the Hall of Arion, at Villa Romana del Casale at
+         Piazza Armerina. The mosaic depicts the Greek poet Arion playing his chitara astride a
+         dolphin, having been thrown off a ship by jealous sailors. Around him are a multitude of
+         mythical beings and wild animals.</description>
+      <date-photographed/>
+      <date-scanned>1998-04-01</date-scanned>
+      <copyright-holder>Carolyn Connor</copyright-holder>
+      <copyright-date>1998-04-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Piazza Armerina</modern-name>
+            <uri>piazza-armerina-47-e4</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>rome</keyword>
+         <keyword>roman</keyword>
+         <keyword>italy</keyword>
+         <keyword>italian</keyword>
+         <keyword>sicily</keyword>
+         <keyword>sicilian</keyword>
+         <keyword>piazza</keyword>
+         <keyword>armerina</keyword>
+         <keyword>villa</keyword>
+         <keyword>romana</keyword>
+         <keyword>casale</keyword>
+         <keyword>floor</keyword>
+         <keyword>tile</keyword>
+         <keyword>mosaic</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>arion</keyword>
+         <keyword>history</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-10</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-10</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; modern photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-07-16</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+   </change-history>
+</image-info>

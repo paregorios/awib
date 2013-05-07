@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+    <status>draft</status>
+    <license-release-verified>no</license-release-verified>
+    <isaw-publish-cleared>no</isaw-publish-cleared>
+    <review-notes></review-notes>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-2011021419253417-thumb.jpg"></image>
+        <image type="review" href="../review-images/isawi-2011021419253417-review.jpg"></image>
+        <image type="master" href="../masters/isawi-2011021419253417-master.tif"></image>
+        <image type="original" href="../originals/isawi-2011021419253417-original.jpg"></image>
+    </image-files>
+    <info type="original">
+        <original-file-name>100_1941_00.jpg</original-file-name>
+        <origin>digital camera</origin>
+        <title></title>
+        <flickr-url></flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <name></name>
+        </photographer>
+        <authority></authority>
+        <description></description>
+        <date-photographed>2008-07-25</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder></copyright-holder>
+        <copyright-date></copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title></title>
+        <flickr-url></flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <given-name></given-name>
+            <family-name></family-name>
+        </photographer>
+        <authority></authority>
+        <description></description>
+        <date-photographed></date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder></copyright-holder>
+        <copyright-date></copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>undetermined</license>
+        <geography>
+            <photographed-place>
+                <ancient-name></ancient-name>
+                <modern-name></modern-name>
+                <uri></uri>
+                <institution></institution>
+            </photographed-place>
+            <find-place></find-place>
+            <original-place></original-place>
+        </geography>
+        <chronology></chronology>
+        <prosopography></prosopography>
+        <typology></typology>
+        <notes></notes>
+    </info>
+    <change-history>
+        <change>
+            <date>2011-02-14</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+    </change-history>
+</image-info>

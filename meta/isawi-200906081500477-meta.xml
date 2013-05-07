@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+    <status>ready</status>
+    <license-release-verified>yes</license-release-verified>
+    <isaw-publish-cleared>yes</isaw-publish-cleared>
+    <review-notes/>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-200906081500477-thumb.jpg"/>
+        <image type="review" href="../review-images/isawi-200906081500477-review.jpg"/>
+        <image type="master" href="../masters/isawi-200906081500477-master.tif"/>
+        <image type="original" href="../originals/isawi-200906081500477-original.jpg"/>
+    </image-files>
+    <info type="original">
+        <original-file-name>a405053.JPG</original-file-name>
+        <origin>undetermined</origin>
+        <title/>
+        <flickr-url/>
+        <fda-handle/>
+        <photographer>
+            <name/>
+        </photographer>
+        <authority/>
+        <description>F Mitas scanned John Hansen's 35mm slides on 4/5/98 </description>
+        <date-photographed/>
+        <date-scanned/>
+        <copyright-holder/>
+        <copyright-date/>
+        <copyright-contact/>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title>Epidauros (VII)</title>
+        <flickr-url>http://www.flickr.com/photos/isawnyu/4524264660</flickr-url>
+        <fda-handle/>
+        <photographer>
+            <given-name>John</given-name>
+            <family-name>Hansen</family-name>
+        </photographer>
+        <authority/>
+        <description>The interior of the theater at the Greek polis of Epidauros.</description>
+        <date-photographed/>
+        <date-scanned>1998-04-05</date-scanned>
+        <copyright-holder>John Hansen</copyright-holder>
+        <copyright-date>1998-04-05</copyright-date>
+        <copyright-contact/>
+        <license>cc-by</license>
+        <geography>
+            <photographed-place>
+                <ancient-name>Epidauros</ancient-name>
+                <modern-name>Epidavros</modern-name>
+                <uri>epidauros-58-e2</uri>
+                <institution/>
+            </photographed-place>
+            <find-place/>
+            <original-place/>
+        </geography>
+        <chronology/>
+        <prosopography/>
+        <typology>
+            <keyword>ancient</keyword>
+            <keyword>greece</keyword>
+            <keyword>greek</keyword>
+            <keyword>epidauros</keyword>
+            <keyword>epidaurus</keyword>
+            <keyword>epidavros</keyword>
+            <keyword>theater</keyword>
+            <keyword>theatre</keyword>
+            <keyword>interior</keyword>
+            <keyword>stage</keyword>
+            <keyword>seating</keyword>
+            <keyword>archaeology</keyword>
+            <keyword>history</keyword>
+        </typology>
+        <notes/>
+    </info>
+    <change-history>
+        <change>
+            <date>2009-06-08</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+        <change>
+            <date>2009-06-08</date>
+            <agent>John Sarlitto</agent>
+            <description>ISAW information partially entered; ancient and modern photographed place
+                names entered </description>
+        </change>
+        <change>
+            <date>2009-07-13</date>
+            <agent>John Sarlitto</agent>
+            <description>ISAW information, geography updated; typology added</description>
+        </change>
+        <change>
+            <date>2010-04-13</date>
+            <agent>Tom Elliott</agent>
+            <description>published</description>
+        </change>
+    </change-history>
+</image-info>

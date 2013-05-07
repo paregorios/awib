@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+    <status>ready</status>
+    <license-release-verified>yes</license-release-verified>
+    <isaw-publish-cleared>yes</isaw-publish-cleared>
+    <review-notes></review-notes>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-201102102011594-thumb.jpg"></image>
+        <image type="review" href="../review-images/isawi-201102102011594-review.jpg"></image>
+        <image type="master" href="../masters/isawi-201102102011594-master.tif"></image>
+        <image type="original" href="../originals/isawi-201102102011594-original.jpg"></image>
+    </image-files>
+    <info type="original">
+        <original-file-name>IMG_3785.JPG</original-file-name>
+        <origin>digital camera</origin>
+        <title></title>
+        <flickr-url></flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <name></name>
+        </photographer>
+        <authority></authority>
+        <description></description>
+        <date-photographed>2009-08-31</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder></copyright-holder>
+        <copyright-date></copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title>Roman Sirmium (IV)</title>
+        <flickr-url>http://www.flickr.com/photos/isawnyu/5434530174/in/set-72157626020157926/</flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <given-name>Anne</given-name>
+            <family-name>Chen</family-name>
+        </photographer>
+        <authority></authority>
+        <description>Fired-brick ruins at the ancient Roman city of Sirmium, located in modern-day
+            Serbia.</description>
+        <date-photographed>2009-09-06</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder>Anne Chen</copyright-holder>
+        <copyright-date>2009-09-06</copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>cc-by</license>
+        <geography>
+            <photographed-place>
+                <ancient-name>Sirmium</ancient-name>
+                <modern-name>Sremska Mitrovica </modern-name>
+                <uri>http://pleiades.stoa.org/places/207447</uri>
+                <institution></institution>
+            </photographed-place>
+            <find-place></find-place>
+            <original-place></original-place>
+        </geography>
+        <chronology></chronology>
+        <prosopography></prosopography>
+        <typology>
+            <keyword>ancient</keyword>
+            <keyword>history</keyword>
+            <keyword>civilization</keyword>
+            <keyword>Roman</keyword>
+            <keyword>Rome</keyword>
+            <keyword>Serbia</keyword>
+            <keyword>Sirmium</keyword>
+            <keyword>Sremska</keyword>
+            <keyword>Mitrovica</keyword>
+            <keyword>city</keyword>
+            <keyword>brick</keyword>
+            <keyword>building</keyword>
+            <keyword>structure</keyword>
+            <keyword>ruins</keyword>
+            <keyword>masonry</keyword>
+        </typology>
+        <notes></notes>
+    </info>
+    <change-history>
+        <change>
+            <date>2011-02-10</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+        <change>
+            <date>2011-02-10</date>
+            <agent>Nate Nagy</agent>
+            <description>entered in isaw information, geography, and typology, and uploaded to
+                Flickr.</description>
+        </change>
+    </change-history>
+</image-info>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201104181504395-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201104181504395-review.jpg"/>
+      <image type="master" href="../masters/isawi-201104181504395-master.tif"/>
+      <image type="original" href="../originals/isawi-201104181504395-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P6056188.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2007-06-05</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Fortress Tower at Ain Tounga, Tunisia.</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5632255779/in/set-72157626402802079/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Graham</given-name>
+         <family-name>Claytor</family-name>
+      </photographer>
+      <authority/>
+      <description>View of two towers part of a Byzantine fortress.</description>
+      <date-photographed>2007-06-05</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Graham Claytor</copyright-holder>
+      <copyright-date>2007-06-05</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Thignica</ancient-name>
+            <modern-name>Ain Tounga</modern-name>
+            <uri>http://pleiades.stoa.org/places/315207/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeolgy</keyword>
+         <keyword>excavation</keyword>
+         <keyword>tunisia</keyword>
+         <keyword>roman</keyword>
+         <keyword>hellenistic</keyword>
+         <keyword>byzantine</keyword>
+         <keyword>fortress</keyword>
+         <keyword>fort</keyword>
+         <keyword>army</keyword>
+         <keyword>ain</keyword>
+         <keyword>tounga</keyword>
+         <keyword>stone</keyword>
+         <keyword>tower</keyword>
+         <keyword/>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-18</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-18</date>
+         <agent>Irene Soto</agent>
+         <description>entered in ISAW info, geography , and typology.</description>
+      </change>
+   </change-history>
+</image-info>

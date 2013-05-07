@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906031959581-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906031959581-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906031959581-master.tif"/>
+      <image type="original" href="../originals/isawi-200906031959581-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>D3170001.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Postcard of Athens Co. Editions D. Haitalis, 30, Chrissalidos Str., 14343 Athens,
+         Tel. 2523511, Fax 2531498</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>View of the Acropolis in Athens (a)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name/>
+         <family-name/>
+      </photographer>
+      <authority/>
+      <description>An aerial view of the Acropolis in Athens.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Athenae</ancient-name>
+            <modern-name>Athens</modern-name>
+            <uri>athenae-59-b3</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greece</keyword>
+         <keyword>architecture</keyword>
+         <keyword>building</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Acropolis</keyword>
+         <keyword>Athens</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-03</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in some initial content for "isaw information" and "photographed
+            place"</description>
+      </change>
+      <change>
+         <date>2009-07-08</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

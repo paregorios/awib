@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906091934176-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906091934176-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906091934176-master.tif"/>
+      <image type="original" href="../originals/isawi-200906091934176-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>z402006.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Photographer: Alex Retzleff Scanner: Tom Elliott petra, colonnaded street from al
+         habis </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Petra (VI)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4902056567/in/set-72157624623449827/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Alex</given-name>
+         <family-name>Retzleff</family-name>
+      </photographer>
+      <authority/>
+      <description>The view from al-Habis of a formerly colonnaded street near Petra.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Alex Retzleff</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Petra</ancient-name>
+            <modern-name/>
+            <uri>http://pleiades.stoa.org/places/697725/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>nabataean</keyword>
+         <keyword>semitic</keyword>
+         <keyword>near east</keyword>
+         <keyword>roman</keyword>
+         <keyword>jordan</keyword>
+         <keyword>petra</keyword>
+         <keyword>colonnade</keyword>
+         <keyword>street</keyword>
+         <keyword>landscape</keyword>
+         <keyword>road</keyword>
+         <keyword>al-habis</keyword>
+         <keyword>archaeology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-09</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-09</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-07-15</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+   </change-history>
+</image-info>

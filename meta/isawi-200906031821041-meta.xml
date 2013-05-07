@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906031821041-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906031821041-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906031821041-master.tif"/>
+      <image type="original" href="../originals/isawi-200906031821041-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>dona226002.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned K McDonnell's 35mm slide of Greece on 2/20/98
+         AcroCorinth</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Corinth, Acrocorinth (VI)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4700437819/in/set-72157624150910149/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kathryn</given-name>
+         <family-name>McDonnell</family-name>
+      </photographer>
+      <authority/>
+      <description>View (to E) of the walls and gate atop the acropolis of Corinth, the
+         Acrocorinth.</description>
+      <date-photographed/>
+      <date-scanned>1998-02-20</date-scanned>
+      <copyright-holder>Kathryn McDonnell</copyright-holder>
+      <copyright-date>1998-02-20</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Korinthos</ancient-name>
+            <modern-name>Corinth</modern-name>
+            <uri>corinthus-58-d2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>Greece</keyword>
+         <keyword>greek</keyword>
+         <keyword>architecture</keyword>
+         <keyword>fortification</keyword>
+         <keyword>fetters of greece</keyword>
+         <keyword>akrokorinth</keyword>
+         <keyword>Acrocorinth</keyword>
+         <keyword>Corinth</keyword>
+         <keyword>korinthos</keyword>
+         <keyword>corinthus</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-03</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-03</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient and modern photographed names
+            entered under "geography"</description>
+      </change>
+      <change>
+         <date>2009-07-06</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+      <change>
+         <date>2010-06-15</date>
+         <agent>John Sarlitto</agent>
+         <description>Flickr URL added</description>
+      </change>
+   </change-history>
+</image-info>

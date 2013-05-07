@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+    <status>ready</status>
+    <license-release-verified>yes</license-release-verified>
+    <isaw-publish-cleared>yes</isaw-publish-cleared>
+    <review-notes></review-notes>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-2011022219035767-thumb.jpg"></image>
+        <image type="review" href="../review-images/isawi-2011022219035767-review.jpg"></image>
+        <image type="master" href="../masters/isawi-2011022219035767-master.tif"></image>
+        <image type="original" href="../originals/isawi-2011022219035767-original.jpg"></image>
+    </image-files>
+    <info type="original">
+        <original-file-name>100_2247_00.jpg</original-file-name>
+        <origin>digital camera</origin>
+        <title></title>
+        <flickr-url></flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <name></name>
+        </photographer>
+        <authority></authority>
+        <description></description>
+        <date-photographed>2008-08-04</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder></copyright-holder>
+        <copyright-date></copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title>Agora (?) at Palmyra. (II)</title>
+        <flickr-url>http://www.flickr.com/photos/isawnyu/5515214096/in/set-72157626112588519/</flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <given-name>Erik</given-name>
+            <family-name>Hermans</family-name>
+        </photographer>
+        <authority></authority>
+        <description>View of courtyard of the agora with ruins of pillars and columns.</description>
+        <date-photographed>2008-08-03</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder>Erik Hermans</copyright-holder>
+        <copyright-date>2008-08-03</copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>cc-by</license>
+        <geography>
+            <photographed-place>
+                <ancient-name>Palmyra, Tadmora or Hadrianopolis</ancient-name>
+                <modern-name>Palmyra</modern-name>
+                <uri>http://pleiades.stoa.org/places/668331/</uri>
+                <institution></institution>
+            </photographed-place>
+            <find-place></find-place>
+            <original-place></original-place>
+        </geography>
+        <chronology></chronology>
+        <prosopography></prosopography>
+        <typology>
+            <keyword>ancient</keyword>
+            <keyword>history</keyword>
+            <keyword>archaeology</keyword>
+            <keyword>hellenistic</keyword>
+            <keyword>roman</keyword>
+            <keyword>syria</keyword>
+            <keyword>palmyra</keyword>
+            <keyword>temple</keyword>
+            <keyword>theater</keyword>
+            <keyword>polis</keyword>
+            <keyword>building</keyword>
+            <keyword>urban</keyword>
+            <keyword>wall</keyword>
+            <keyword>tower</keyword>
+            <keyword>ruin</keyword>
+            <keyword>carved</keyword>
+            <keyword>landscape</keyword>
+            <keyword>inscription</keyword>
+        </typology>
+        <notes></notes>
+    </info>
+    <change-history>
+        <change>
+            <date>2011-02-22</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+        <change>
+            <date>2011-02-22</date>
+            <agent>Irene Soto</agent>
+            <description>entered isaw info, typology, and geography.</description>
+        </change>
+    </change-history>
+</image-info>

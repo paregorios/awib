@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906041751086-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906041751086-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906041751086-master.tif"/>
+      <image type="original" href="../originals/isawi-200906041751086-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>D3290006.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Corinth6 Acrocorinth Eric Dugdale From slide D3290006</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Corinth, Acrocorinth (III)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4701072084/in/set-72157624150910149/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Eric</given-name>
+         <family-name>Dugdale</family-name>
+      </photographer>
+      <authority/>
+      <description>View of the Corinthian acropolis, the Acrocorinth, from the city
+         below.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Eric Dugdale</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Korinthos</ancient-name>
+            <modern-name>Corinth</modern-name>
+            <uri>corinthus-58-d2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greek</keyword>
+         <keyword>greece</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>acropolis</keyword>
+         <keyword>fortification</keyword>
+         <keyword>Corinth</keyword>
+         <keyword>fetters of greece</keyword>
+         <keyword>korinthos</keyword>
+         <keyword>Acrocorinth</keyword>
+         <keyword>akrokorinth</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-04</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for "isaw information" and "photographed
+            place"</description>
+      </change>
+      <change>
+         <date>2009-07-09</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+      <change>
+         <date>2010-06-14</date>
+         <agent>John Sarlitto</agent>
+         <description>Metadata updated; image published to Flickr</description>
+      </change>
+      <change>
+         <date>2010-06-15</date>
+         <agent>John Sarlitto</agent>
+         <description>Flickr URL added</description>
+      </change>
+   </change-history>
+</image-info>

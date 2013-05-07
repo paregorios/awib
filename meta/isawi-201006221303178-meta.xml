@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201006221303178-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201006221303178-review.jpg"/>
+      <image type="master" href="../masters/isawi-201006221303178-master.tif"/>
+      <image type="original" href="../originals/isawi-201006221303178-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Amheida 16.jpg</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2006-02-14</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Amheida (XVI)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4727185375/in/set-72157624340575014/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name/>
+         <family-name/>
+      </photographer>
+      <authority>Image published on the authority of the Amheida Project Director, Roger
+         Bagnall</authority>
+      <description>View of a painted interior wall in room 1, building B1, Area 2. </description>
+      <date-photographed>2006-02-14</date-photographed>
+      <date-scanned/>
+      <copyright-holder>NYU Excavations at Amheida</copyright-holder>
+      <copyright-date>2006-02-14</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Trimithis</ancient-name>
+            <modern-name>Amheida</modern-name>
+            <uri>http://pleiades.stoa.org/places/776235</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>hellenistic</keyword>
+         <keyword>roman</keyword>
+         <keyword>dakhleh</keyword>
+         <keyword>dakhla</keyword>
+         <keyword>oasis</keyword>
+         <keyword>trimithis</keyword>
+         <keyword>amheida</keyword>
+         <keyword>project</keyword>
+         <keyword>excavation</keyword>
+         <keyword>interior</keyword>
+         <keyword>painting</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>new york university</keyword>
+         <keyword>nyu</keyword>
+         <keyword>columbia university</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2010-06-22</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2010-06-22</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography, typology added</description>
+      </change>
+      <change>
+         <date>2010-06-23</date>
+         <agent>John Sarlitto</agent>
+         <description>Image published to Flickr; URL added</description>
+      </change>
+   </change-history>
+</image-info>

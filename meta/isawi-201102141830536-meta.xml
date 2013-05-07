@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+    <status>ready</status>
+    <license-release-verified>yes</license-release-verified>
+    <isaw-publish-cleared>yes</isaw-publish-cleared>
+    <review-notes></review-notes>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-201102141830536-thumb.jpg"></image>
+        <image type="review" href="../review-images/isawi-201102141830536-review.jpg"></image>
+        <image type="master" href="../masters/isawi-201102141830536-master.tif"></image>
+        <image type="original" href="../originals/isawi-201102141830536-original.jpg"></image>
+    </image-files>
+    <info type="original">
+        <original-file-name>100_1881.jpg</original-file-name>
+        <origin>digital camera</origin>
+        <title></title>
+        <flickr-url></flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <name></name>
+        </photographer>
+        <authority></authority>
+        <description></description>
+        <date-photographed>2008-07-18</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder></copyright-holder>
+        <copyright-date></copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title>Ain Dara (VI)</title>
+        <flickr-url>http://www.flickr.com/photos/isawnyu/sets/72157625924454165/</flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <given-name>Erik</given-name>
+            <family-name>Hermans</family-name>
+        </photographer>
+        <authority></authority>
+        <description> Ain Dara, Syria.</description>
+        <date-photographed>2008-07-18</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder>Erik Hermans</copyright-holder>
+        <copyright-date>2008-07-18</copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>cc-by</license>
+        <geography>
+            <photographed-place>
+                <ancient-name>Ain Dara</ancient-name>
+                <modern-name>Ain Dara</modern-name>
+                <uri>http://pleiades.stoa.org/places/658369</uri>
+                <institution></institution>
+            </photographed-place>
+            <find-place></find-place>
+            <original-place></original-place>
+        </geography>
+        <chronology></chronology>
+        <prosopography></prosopography>
+        <typology>
+            <keyword>Ancient</keyword>
+            <keyword>History</keyword>
+            <keyword>Archaeology</keyword>
+            <keyword>Syria</keyword>
+            <keyword>Ain</keyword>
+            <keyword>Dara</keyword>
+            <keyword>Temple</keyword>
+            <keyword>Necropolis</keyword>
+            <keyword>Masonry</keyword>
+            <keyword>Basalt</keyword>
+            <keyword>stone</keyword>
+            <keyword>carved</keyword>
+            <keyword>statue </keyword>
+        </typology>
+        <notes></notes>
+    </info>
+    <change-history>
+        <change>
+            <date>2011-02-14</date>
+            <agent>Irene Soto</agent>
+            <description>entered in isaw info, typology, and geography.</description>
+        </change>
+        <change>
+            <date>2011-02-14</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+    </change-history>
+</image-info>

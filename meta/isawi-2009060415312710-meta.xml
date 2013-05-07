@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009060415312710-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009060415312710-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009060415312710-master.tif"/>
+      <image type="original" href="../originals/isawi-2009060415312710-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>ben_arch_009.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Beneventum. Arch of Trajan. Photo by GW Houston. </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Beneventum, Arch of Trajan (X)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4748784305/in/set-72157624267816627/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>George W.</given-name>
+         <family-name>Houston</family-name>
+      </photographer>
+      <authority/>
+      <description>Detail of the upper left relief on the Arch of Trajan at
+         Beneventum.</description>
+      <date-photographed>1969-01-15</date-photographed>
+      <date-scanned/>
+      <copyright-holder>George W. Houston</copyright-holder>
+      <copyright-date>1969-01-15</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Beneventum</ancient-name>
+            <modern-name>Benevento</modern-name>
+            <uri>beneventum-maleventum-44-g3</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>monument</keyword>
+         <keyword>Beneventum</keyword>
+         <keyword>Benevento</keyword>
+         <keyword>Arch</keyword>
+         <keyword>emperor</keyword>
+         <keyword>Trajan</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>rome</keyword>
+         <keyword>italy</keyword>
+         <keyword>italian</keyword>
+         <keyword>relief</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-04</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in some initial content for "isaw information" and "photographed
+            place"</description>
+      </change>
+      <change>
+         <date>2009-07-13</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+      <change>
+         <date>2010-06-30</date>
+         <agent>John Sarlitto</agent>
+         <description>Metadata updated; image cleared for publication </description>
+      </change>
+      <change>
+         <date>2010-06-30</date>
+         <agent>John Sarlitto</agent>
+         <description>Image published to Flickr; URL added</description>
+      </change>
+   </change-history>
+</image-info>

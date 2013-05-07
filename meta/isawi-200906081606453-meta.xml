@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906081606453-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906081606453-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906081606453-master.tif"/>
+      <image type="original" href="../originals/isawi-200906081606453-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>hanbl194.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Herakleia ad Latmos</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Herakleia ad Latmos (III)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4749156121/in/set-72157624393504982/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>John</given-name>
+         <family-name>Hansen</family-name>
+      </photographer>
+      <authority/>
+      <description>A fortified stone tower at the Hellenistic-era city site of Herakleia ad
+         Latmos.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>John Hansen</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Herakleia ad Latmos</ancient-name>
+            <modern-name>Kapikiri</modern-name>
+            <uri>http://pleiades.stoa.org/places/599640/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>greece</keyword>
+         <keyword>greek</keyword>
+         <keyword>hellenistic</keyword>
+         <keyword>asia</keyword>
+         <keyword>minor</keyword>
+         <keyword>turkey</keyword>
+         <keyword>kapikiri</keyword>
+         <keyword>herakleia</keyword>
+         <keyword>hereaclea</keyword>
+         <keyword>ad</keyword>
+         <keyword>latmos</keyword>
+         <keyword>latmum</keyword>
+         <keyword>lakes</keyword>
+         <keyword>stone</keyword>
+         <keyword>tower</keyword>
+         <keyword>walls</keyword>
+         <keyword>fortifications</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-08</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-08</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-07-14</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+      <change>
+         <date>2010-06-30</date>
+         <agent>John Sarlitto</agent>
+         <description>Metadata updated; image cleared for release</description>
+      </change>
+      <change>
+         <date>2010-06-30</date>
+         <agent>John Sarlitto</agent>
+         <description>Image published to Flickr; URL added</description>
+      </change>
+   </change-history>
+</image-info>

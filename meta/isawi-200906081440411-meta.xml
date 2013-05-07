@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906081440411-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906081440411-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906081440411-master.tif"/>
+      <image type="original" href="../originals/isawi-200906081440411-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>hanbl144.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Bust of Trajan (?), Museum at Ephesus</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Museum at Ephesus (a)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name/>
+         <family-name/>
+      </photographer>
+      <authority/>
+      <description>A bust of Trajan (?) at the museum at Ephesus.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Ephesus</ancient-name>
+            <modern-name>Selçuk </modern-name>
+            <uri>ephesus-arsinoeia-61-e2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>greece</keyword>
+         <keyword>greek</keyword>
+         <keyword>turkey</keyword>
+         <keyword>ephesus</keyword>
+         <keyword>roman</keyword>
+         <keyword>trajan</keyword>
+         <keyword>emperor</keyword>
+         <keyword>museum</keyword>
+         <keyword>bust</keyword>
+         <keyword>sculpture</keyword>
+         <keyword>statuary</keyword>
+         <keyword>arsinoeia</keyword>
+         <keyword>selçuk</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-08</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-08</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient and modern photographed place
+            names entered; potential copyright issue noted</description>
+      </change>
+      <change>
+         <date>2009-07-13</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+   </change-history>
+</image-info>

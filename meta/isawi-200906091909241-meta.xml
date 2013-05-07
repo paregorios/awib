@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906091909241-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906091909241-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906091909241-master.tif"/>
+      <image type="original" href="../originals/isawi-200906091909241-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>houg322040.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Erika Grams, Scanner George Houston, Photographer Ostia. Fountain on decumanus
+         maximus</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Ostia, fountain (I)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4687825313/in/set-72157624245479098/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>George</given-name>
+         <family-name>Houston</family-name>
+      </photographer>
+      <authority/>
+      <description>A fountain situated beside the Decumanus Maximus (main thoroughfare) at
+         Ostia.</description>
+      <date-photographed>1968-11-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder>George Houston</copyright-holder>
+      <copyright-date>1968-11-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Ostia</ancient-name>
+            <modern-name>Ostia Antica</modern-name>
+            <uri>ostia-43-b2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>rome</keyword>
+         <keyword>roman</keyword>
+         <keyword>italy</keyword>
+         <keyword>italian</keyword>
+         <keyword>ostia</keyword>
+         <keyword>antica</keyword>
+         <keyword>decumanus</keyword>
+         <keyword>maximus</keyword>
+         <keyword>marble</keyword>
+         <keyword>fountain</keyword>
+         <keyword>pillars</keyword>
+         <keyword>columns</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-09</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-09</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-07-15</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+      <change>
+         <date>2010-06-10</date>
+         <agent>John Sarlitto</agent>
+         <description>Metadata updated; image cleared for publication </description>
+      </change>
+      <change>
+         <date>2010-06-14</date>
+         <agent>John Sarlitto</agent>
+         <description>Flickr URL added</description>
+      </change>
+   </change-history>
+</image-info>

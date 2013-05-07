@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906051807064-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906051807064-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906051807064-master.tif"/>
+      <image type="original" href="../originals/isawi-200906051807064-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>D3210004.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Delphi4 Stadium, looking West William III West From print D3210004</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Delphi (IV)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4910974660/in/set-72157624643330645/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>William III</given-name>
+         <family-name>West</family-name>
+      </photographer>
+      <authority/>
+      <description>View of the stadium at Delphi, looking west.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>William West III</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Delphi</ancient-name>
+            <modern-name/>
+            <uri>delphi-55-d4</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>greece</keyword>
+         <keyword>greek</keyword>
+         <keyword>delphi</keyword>
+         <keyword>masonry</keyword>
+         <keyword>stadium</keyword>
+         <keyword>athletics</keyword>
+         <keyword>west</keyword>
+         <keyword>archaeology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-05</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-05</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-06-15</date>
+         <agent>John Sarlitto</agent>
+         <description>intial basic typology, uri entered</description>
+      </change>
+   </change-history>
+</image-info>

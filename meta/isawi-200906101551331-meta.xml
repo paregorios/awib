@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906101551331-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906101551331-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906101551331-master.tif"/>
+      <image type="original" href="../originals/isawi-200906101551331-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>hana407007.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned John Hansen's 35mm slides on 4/7/98 </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Details of the Ara Pacis (a)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>John</given-name>
+         <family-name>Hansen</family-name>
+      </photographer>
+      <authority/>
+      <description>Detail of the processional frieze on the Ara Pacis, depicting Senators of
+         Rome.</description>
+      <date-photographed/>
+      <date-scanned>1998-04-07</date-scanned>
+      <copyright-holder>John Hansen</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Roma</ancient-name>
+            <modern-name>Rome</modern-name>
+            <uri>roma-43-b2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Rome</keyword>
+         <keyword>Ara</keyword>
+         <keyword>Pacis</keyword>
+         <keyword>relief</keyword>
+         <keyword>carving</keyword>
+         <keyword>altar</keyword>
+         <keyword>peace</keyword>
+         <keyword>marble</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-10</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-10</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for "isaw information"</description>
+      </change>
+      <change>
+         <date>2009-07-20</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+      <change>
+         <date>2010-05-04</date>
+         <agent>Nate Nagy</agent>
+         <description>added to typology and uploaded to Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

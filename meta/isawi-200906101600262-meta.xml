@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906101600262-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906101600262-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906101600262-master.tif"/>
+      <image type="original" href="../originals/isawi-200906101600262-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>z218031.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Model of temple of fortuna at praeneste. Tom Elliott. May 1988.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Praeneste (b)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Tom</given-name>
+         <family-name>Elliott</family-name>
+      </photographer>
+      <authority/>
+      <description>A model of the temple of Fortuna at Praeneste.</description>
+      <date-photographed>1988-05-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Tom Elliott</copyright-holder>
+      <copyright-date>1988-05-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Praeneste</ancient-name>
+            <modern-name>Palestrina</modern-name>
+            <uri>praeneste-43-d2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>temple</keyword>
+         <keyword>Fortuna</keyword>
+         <keyword>Praeneste</keyword>
+         <keyword>Palestrina</keyword>
+      </typology>
+      <notes>
+         <note>
+            <name>John Sarlitto</name>
+            <date>2009-06-10</date>
+            <content>image appears to depict artifact in museum; could pose potential copyright
+               questions later</content>
+         </note>
+      </notes>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-10</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-10</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient and modern photographed place
+            names entered</description>
+      </change>
+      <change>
+         <date>2009-07-17</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

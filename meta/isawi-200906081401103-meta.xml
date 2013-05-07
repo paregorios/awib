@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906081401103-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906081401103-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906081401103-master.tif"/>
+      <image type="original" href="../originals/isawi-200906081401103-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>hanbl098.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Dodona</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Dodona (c)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name/>
+         <family-name/>
+      </photographer>
+      <authority/>
+      <description>Stone ruins at the ancient oracular shine at Dodona.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Dodona</ancient-name>
+            <modern-name>Dodone</modern-name>
+            <uri>dodona-54-c2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>greece</keyword>
+         <keyword>greek</keyword>
+         <keyword>epirus</keyword>
+         <keyword>dodona</keyword>
+         <keyword>dodone</keyword>
+         <keyword>oracle</keyword>
+         <keyword>stone</keyword>
+         <keyword>landscape</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>history</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-08</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-08</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient and modern photographed place
+            names entered</description>
+      </change>
+      <change>
+         <date>2009-07-13</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography updated; typology added</description>
+      </change>
+   </change-history>
+</image-info>

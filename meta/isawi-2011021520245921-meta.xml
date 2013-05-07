@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+    <status>ready</status>
+    <license-release-verified>yes</license-release-verified>
+    <isaw-publish-cleared>yes</isaw-publish-cleared>
+    <review-notes></review-notes>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-2011021520245921-thumb.jpg"></image>
+        <image type="review" href="../review-images/isawi-2011021520245921-review.jpg"></image>
+        <image type="master" href="../masters/isawi-2011021520245921-master.tif"></image>
+        <image type="original" href="../originals/isawi-2011021520245921-original.jpg"></image>
+    </image-files>
+    <info type="original">
+        <original-file-name>100_2289_00.jpg</original-file-name>
+        <origin>digital camera</origin>
+        <title></title>
+        <flickr-url></flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <name></name>
+        </photographer>
+        <authority></authority>
+        <description></description>
+        <date-photographed>2008-08-05</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder></copyright-holder>
+        <copyright-date></copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title>View of Ruins at Bosra, Syria. (II)</title>
+        <flickr-url>http://www.flickr.com/photos/isawnyu/5468557132/in/set-72157626111398060/</flickr-url>
+        <fda-handle></fda-handle>
+        <photographer>
+            <given-name>Erik</given-name>
+            <family-name>Hermans</family-name>
+        </photographer>
+        <authority></authority>
+        <description>View of ruins at Bosra, Syria.</description>
+        <date-photographed>2008-08-05</date-photographed>
+        <date-scanned></date-scanned>
+        <copyright-holder>Erik Hermans</copyright-holder>
+        <copyright-date>2008-08-05</copyright-date>
+        <copyright-contact></copyright-contact>
+        <license>cc-by</license>
+        <geography>
+            <photographed-place>
+                <ancient-name>Bosra or Nova Traiana Alexandriana</ancient-name>
+                <modern-name></modern-name>
+                <uri>http://pleiades.stoa.org/places/678073/</uri>
+                <institution></institution>
+            </photographed-place>
+            <find-place></find-place>
+            <original-place></original-place>
+        </geography>
+        <chronology></chronology>
+        <prosopography></prosopography>
+        <typology>
+            <keyword>archaeology</keyword>
+            <keyword>hellenistic</keyword>
+            <keyword>roman</keyword>
+            <keyword>syria</keyword>
+            <keyword>bostra</keyword>
+            <keyword>bozrah</keyword>
+            <keyword>nova</keyword>
+            <keyword>traiana</keyword>
+            <keyword>courtyard</keyword>
+            <keyword>necropolis</keyword>
+            <keyword>nabataean</keyword>
+            <keyword>stone</keyword>
+            <keyword>arch</keyword>
+            <keyword>Ancient </keyword>
+            <keyword>History</keyword>
+            <keyword>columns</keyword>
+        </typology>
+        <notes></notes>
+    </info>
+    <change-history>
+        <change>
+            <date>2011-02-15</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+        <change>
+            <date>2011-02-17</date>
+            <agent>Irene Soto</agent>
+            <description>entered isaw info, typology and geography.</description>
+        </change>
+    </change-history>
+</image-info>

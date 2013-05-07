@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009060415312714-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009060415312714-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009060415312714-master.tif"/>
+      <image type="original" href="../originals/isawi-2009060415312714-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>ben_pharoah.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Benevento. Domitian as a pharaoh. Photo by GW Houston. </description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Statue of Domitian (I)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>George W.</given-name>
+         <family-name>Houston</family-name>
+      </photographer>
+      <authority/>
+      <description>A scuplture of the emperor Domitian portrayed as a pharaoh, located in the Temple
+         of Isis at the base of the Lombard walls of Benevento.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>George W. Houston</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Beneventum</ancient-name>
+            <modern-name>Benevento</modern-name>
+            <uri>beneventum-maleventum-44-g3</uri>
+            <institution>Temple of Isis</institution>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>sculpture</keyword>
+         <keyword>Domitian</keyword>
+         <keyword>Roman</keyword>
+         <keyword>pharaoh</keyword>
+         <keyword>Beneventum</keyword>
+         <keyword>Benevento</keyword>
+      </typology>
+      <notes>
+         <note>
+            <name>John Sarlitto</name>
+            <date>2010-06-30</date>
+            <content>Potential copyright issues with this image?</content>
+         </note>
+      </notes>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-04</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in some initial content for "isaw information" and "photographed
+            place"</description>
+      </change>
+      <change>
+         <date>2009-07-13</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

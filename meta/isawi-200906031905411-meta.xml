@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906031905411-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906031905411-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906031905411-master.tif"/>
+      <image type="original" href="../originals/isawi-200906031905411-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>hanbl099.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Road, Ambracia</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Road at Ambracia (I)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4854655282/in/set-72157624514692543/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name/>
+         <family-name/>
+      </photographer>
+      <authority/>
+      <description>A paved road at the Corinthian colony at Ambracia.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Ambracia</ancient-name>
+            <modern-name>Ambracia</modern-name>
+            <uri>http://pleiades.stoa.org/places/530794</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greece</keyword>
+         <keyword>Greek</keyword>
+         <keyword>Corinth</keyword>
+         <keyword>colony</keyword>
+         <keyword>stone</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>road</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>excavation</keyword>
+         <keyword>Ambracia</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-03</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-03</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; ancient photographed place name entered
+         </description>
+      </change>
+      <change>
+         <date>2009-07-06</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>
