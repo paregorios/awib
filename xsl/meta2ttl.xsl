@@ -3,8 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+    xmlns:foo="my.foo.org"
     exclude-result-prefixes="xs math xd"
-    version="3.0">
+    version="2.0">
 
     <xsl:import href="stringvars.xsl"/>
 
@@ -18,6 +19,19 @@
     
     <xsl:output method="text" encoding="UTF-8"/>
     
+    <xsl:variable name="photouri">
+        <xsl:variable name="url" select="//info[@type='isaw']/flickr-url"/>
+        <xsl:choose>
+            <xsl:when test="contains($url, '/in/set')">
+                <xsl:value-of select="substring-before($url, '/in/set')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$url"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+
+    
     <xsl:template match="/">
         <xsl:apply-templates/>
     </xsl:template>
@@ -27,9 +41,17 @@
     </xsl:template>
     
     <xsl:template match="info[@type='isaw']">
-        <xsl:text>&lt;</xsl:text><xsl:value-of select="flickr-url"/><xsl:text>&gt; a foaf:Image</xsl:text>
+        <xsl:text>&lt;</xsl:text><xsl:value-of select="$photouri"/><xsl:text>&gt; a foaf:Image</xsl:text>
         <xsl:apply-templates select="title"/>
-        <xsl:apply-templates select="photographer"/>
+        <xsl:call-template name="photographers"/>
+        <xsl:call-template name="contributors"/>
+        <xsl:apply-templates select="license"/>
+        <xsl:apply-templates select="date-photographed"/>
+        <xsl:apply-templates select="description"/>
+        <xsl:apply-templates select="geography"/>
+        <xsl:apply-templates select="typology"/>
+        <xsl:value-of select="$pn"/>
+        <xsl:call-template name="people"/>
     </xsl:template>
     
     <xsl:template match="title">
@@ -48,6 +70,156 @@
         <xsl:text>" ]</xsl:text>
     </xsl:template>
     
+    <xsl:template match="license[.!='']">
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:license </xsl:text>
+        <xsl:choose>
+            <xsl:when test=".='cc-by'">
+                <xsl:text>&lt;http://creativecommons.org/licenses/by/3.0/us/&gt;</xsl:text>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="date-photographed">
+        <xsl:choose>
+            <xsl:when test=".!=''">
+                <xsl:value-of select="$snt"/>
+                <xsl:text>dcterms:date "</xsl:text>
+                <xsl:value-of select="."/>
+                <xsl:text>"</xsl:text>
+            </xsl:when>
+            <xsl:when test=".='' and ../date-scanned!=''">
+                <xsl:value-of select="$snt"/>
+                <xsl:text>dcterms:date "</xsl:text>
+                <xsl:value-of select="../date-scanned"/>
+                <xsl:text>"</xsl:text>            
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="description">
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:description "</xsl:text>
+        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:text>"</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="geography">
+        <xsl:apply-templates select="photographed-place"/>
+    </xsl:template>
+    
+    <xsl:template match="photographed-place[starts-with(uri, 'http://pleiades.stoa.org')]">
+        <xsl:value-of select="$snt"/>
+        <xsl:text>foaf:depicts &lt;</xsl:text>
+        <xsl:value-of select="uri"/>
+        <xsl:if test="not(ends-with(uri, '#this'))">#this</xsl:if>
+        <xsl:text>&gt;</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="typology[count(keyword)!=0]">
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:subject </xsl:text>
+        <xsl:for-each select="keyword">
+            <xsl:if test="preceding-sibling::keyword">
+                <xsl:value-of select="$cntt"/>
+            </xsl:if>
+            <xsl:text>&lt;http://www.flickr.com/photos/tags/</xsl:text>
+            <xsl:value-of select="."/>
+            <xsl:text>&gt;</xsl:text>
+        </xsl:for-each>
+    </xsl:template>
+    
     <xsl:template match="*"/>
     
+    <xsl:template name="contributors">
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:contributor </xsl:text>
+        <xsl:for-each select="//change-history/change[agent != 'script']">
+            <xsl:variable name="thisagent" select="agent"/>
+            <xsl:if test="not(preceding-sibling::change[agent = $thisagent])">
+                <xsl:if test="preceding-sibling::change[1][agent != 'script' and agent != $thisagent]">
+                    <xsl:value-of select="$cntt"/>
+                </xsl:if>
+                <xsl:text>&lt;urn:awib:person:</xsl:text>
+                <xsl:value-of select="foo:checksum(agent)"/>
+                <xsl:text>&gt;</xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template name="photographers">
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:creator </xsl:text>
+        <xsl:for-each select="//info[@type='isaw']/photographer">
+                <xsl:if test="preceding-sibling::photographer">
+                    <xsl:value-of select="$cntt"/>
+                </xsl:if>
+                <xsl:text>&lt;urn:awib:person:</xsl:text>
+                <xsl:value-of select="foo:checksum(.)"/>
+                <xsl:text>&gt;</xsl:text>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template name="people">
+        <xsl:for-each select="//info[@type='isaw']/photographer">
+            <xsl:value-of select="$n"/>
+            <xsl:text>&lt;urn:awib:person:</xsl:text>
+            <xsl:value-of select="foo:checksum(.)"/>
+            <xsl:text>&gt; a foaf:Person</xsl:text>
+            <xsl:value-of select="$snt"/>
+            <xsl:text>foaf:name "</xsl:text>
+            <xsl:value-of select="given-name"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="family-name"/>
+            <xsl:text>" </xsl:text>
+            <xsl:value-of select="$p"/>
+        </xsl:for-each>
+        <xsl:for-each select="//change-history/change[agent != 'script']">
+            <xsl:variable name="thisagent" select="agent"/>
+            <xsl:if test="not(preceding-sibling::change[agent = $thisagent])">
+                <xsl:value-of select="$n"/>
+                <xsl:text>&lt;urn:awib:person:</xsl:text>
+                <xsl:value-of select="foo:checksum(agent)"/>
+                <xsl:text>&gt; a foaf:Person</xsl:text>
+                <xsl:value-of select="$snt"/>
+                <xsl:text>foaf:name "</xsl:text>
+                <xsl:value-of select="agent"/>
+                <xsl:text>" </xsl:text>
+                <xsl:value-of select="$p"/>
+            </xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xd:doc scope="following functions">
+        <xd:desc>
+            <xd:p><xd:b>Created on:</xd:b> July 19, 2011</xd:p>
+            <xd:p><xd:b>Author:</xd:b> Lars Huttar</xd:p>
+            <xd:p>http://stackoverflow.com/questions/6753343/using-xsl-to-make-a-hash-of-xml-file</xd:p>
+        </xd:desc>
+    </xd:doc>
+    
+    <xsl:function name="foo:checksum" as="xs:int">
+        <xsl:param name="str" as="xs:string"/>
+        <xsl:variable name="codepoints" select="string-to-codepoints($str)"/>
+        <xsl:value-of select="foo:fletcher16($codepoints, count($codepoints), 1, 0, 0)"/>
+    </xsl:function>
+    
+    <xsl:function name="foo:fletcher16">
+        <xsl:param name="str" as="xs:integer*"/>
+        <xsl:param name="len" as="xs:integer" />
+        <xsl:param name="index" as="xs:integer" />
+        <xsl:param name="sum1" as="xs:integer" />
+        <xsl:param name="sum2" as="xs:integer"/>
+        <xsl:choose>
+            <xsl:when test="$index ge $len">
+                <xsl:sequence select="$sum2 * 256 + $sum1"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="newSum1" as="xs:integer"
+                    select="($sum1 + $str[$index]) mod 255"/>
+                <xsl:sequence select="foo:fletcher16($str, $len, $index + 1, $newSum1,
+                    ($sum2 + $newSum1) mod 255)" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
 </xsl:stylesheet>
