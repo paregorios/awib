@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009080314281610-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009080314281610-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009080314281610-master.tif"/>
+      <image type="original" href="../originals/isawi-2009080314281610-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide18.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Kom el-Dikka (a)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnal</family-name>
+      </photographer>
+      <authority/>
+      <description>A lecture hall at one of the schools at Kom el-Dikka in Alexandria.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Alexandria</ancient-name>
+            <modern-name>Alexandria</modern-name>
+            <uri>alexandria-74-b2 </uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>Egypt</keyword>
+         <keyword>Greek</keyword>
+         <keyword>architecture</keyword>
+         <keyword>building</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Kom</keyword>
+         <keyword>el-Dikka</keyword>
+         <keyword>lecture</keyword>
+         <keyword>classroom</keyword>
+         <keyword>Alexandria</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-08-03</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-08-03</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in intial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

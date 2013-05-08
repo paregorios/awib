@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2012061320002210-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2012061320002210-review.jpg"/>
+      <image type="master" href="../masters/isawi-2012061320002210-master.tif"/>
+      <image type="original" href="../originals/isawi-2012061320002210-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>DSC03354_1.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-20</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Serapeum of Alexandria (V)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/7591103172/in/set-72157630621836178/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Iris</given-name>
+         <family-name>Fernandez</family-name>
+      </photographer>
+      <authority/>
+      <description>The remains of a sacred pool near Diocletian's column at the Serapeum of
+         Alexandria.</description>
+      <date-photographed>2009-03-20</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Iris Fernandez</copyright-holder>
+      <copyright-date>2009-03-20</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Alexandria</ancient-name>
+            <modern-name/>
+            <uri>http://pleiades.stoa.org/places/727070/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>egypt</keyword>
+         <keyword>history</keyword>
+         <keyword>ancient</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>stone</keyword>
+         <keyword>alexandria</keyword>
+         <keyword>alexandrian</keyword>
+         <keyword>serapeum</keyword>
+         <keyword>serapis</keyword>
+         <keyword>temple</keyword>
+         <keyword>ptolemy</keyword>
+         <keyword>ptolemaic</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>diocletian</keyword>
+         <keyword>osiris</keyword>
+         <keyword>apis</keyword>
+         <keyword>court</keyword>
+         <keyword>brick</keyword>
+         <keyword>marble</keyword>
+         <keyword>granite</keyword>
+         <keyword>roman</keyword>
+         <keyword>sacred</keyword>
+         <keyword>pool</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-06-13</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-07-12</date>
+         <agent>Roko Rumora</agent>
+         <description>added basic info, some typology, and geography, but left the titles and
+            descriptions for Iris.</description>
+      </change>
+      <change>
+         <date>2012-07-17</date>
+         <agent>Iris Fernandez</agent>
+         <description>Finished inputting all meta data and uploaded to Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

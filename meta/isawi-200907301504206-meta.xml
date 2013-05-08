@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200907301504206-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200907301504206-review.jpg"/>
+      <image type="master" href="../masters/isawi-200907301504206-master.tif"/>
+      <image type="original" href="../originals/isawi-200907301504206-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide14.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Excavation at Choirokoitia (II)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5076370898/in/set-72157625150997082/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>View of Areas 2 and 3, behind House 1 at the Excavation at Choirokoitia in
+         Cyprus.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Choirokoitia</modern-name>
+            <uri>http://pleiades.stoa.org/places/755568222</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greece</keyword>
+         <keyword>Greek</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>excavation</keyword>
+         <keyword>neolithic</keyword>
+         <keyword>settlement</keyword>
+         <keyword>Choirokoitia</keyword>
+         <keyword>Khirokitia</keyword>
+         <keyword>Cyprus</keyword>
+         <keyword>building</keyword>
+         <keyword>masonry</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-07-30</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-07-30</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in intial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

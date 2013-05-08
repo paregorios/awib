@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready </status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906021442398-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906021442398-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906021442398-master.tif"/>
+      <image type="original" href="../originals/isawi-200906021442398-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Deir el-Haggar (i).JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Deir el-Haggar (VIII)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4565508163/in/set-72157623963481346/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <name>NYU Excavations at Amheida Staff</name>
+      </photographer>
+      <authority>Image published on the authority of the Amheida Project Director, Roger
+         Bagnall</authority>
+      <description>The reconstructed sanctuary ceiling of the temple at Deir el-Haggar, depicting
+         the elongated body of the sky goddess Nut.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>NYU Excavations at Amheida</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Deir el-Haggar</modern-name>
+            <uri>http://pleiades.stoa.org/places/776223</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>egypt</keyword>
+         <keyword>temple</keyword>
+         <keyword>sanctuary</keyword>
+         <keyword>ceiling</keyword>
+         <keyword>nut</keyword>
+         <keyword>goddess</keyword>
+         <keyword>deir el-haggar</keyword>
+         <keyword>history</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>archaeology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-02</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-02</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; modern photographed place name entered
+            under "geography"; lack of original date noted</description>
+      </change>
+      <change>
+         <date>2009-06-15</date>
+         <agent>John Sarlitto</agent>
+         <description>initial basic typology entered</description>
+      </change>
+      <change>
+         <date>2010-04-29</date>
+         <agent>John Sarlitto</agent>
+         <description>Meta-data verified; typology updated; image published to Flickr</description>
+      </change>
+      <change>
+         <date>2010-06-08</date>
+         <agent>John Sarlitto</agent>
+         <description>Pleiades URI added</description>
+      </change>
+   </change-history>
+</image-info>

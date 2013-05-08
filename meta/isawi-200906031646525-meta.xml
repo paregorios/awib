@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906031646525-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906031646525-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906031646525-master.tif"/>
+      <image type="original" href="../originals/isawi-200906031646525-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>104_0469.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>104_0469</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name>NYU Excavations at Amheida Staff</name>
+      </photographer>
+      <authority>Image published on the authority of the Amheida Project Director, Roger Bagnall</authority>
+      <description>view of Egyptian hieroglyphs</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>NYU Excavations at Amheida</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name/>
+            <uri/>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology/>
+      <notes>
+         <note> the date of the photograph is absent from the original information </note>
+      </notes>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-03</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-03</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; absence of date from original information
+            noted</description>
+      </change>
+   </change-history>
+</image-info>

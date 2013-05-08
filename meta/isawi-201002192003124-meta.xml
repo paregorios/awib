@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>suppressed</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201002192003124-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201002192003124-review.jpg"/>
+      <image type="master" href="../masters/isawi-201002192003124-master.tif"/>
+      <image type="original" href="../originals/isawi-201002192003124-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide004.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name/>
+         <family-name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name/>
+            <uri/>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology/>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2010-02-19</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+   </change-history>
+</image-info>

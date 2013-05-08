@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200907291444358-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200907291444358-review.jpg"/>
+      <image type="master" href="../masters/isawi-200907291444358-master.tif"/>
+      <image type="original" href="../originals/isawi-200907291444358-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide16.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Asklepieion at Paphos (I)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5030893794/in/set-72157624923129037/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>The Asklepieion at New Paphos in Cyprus.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Paphos</ancient-name>
+            <modern-name>New Paphos</modern-name>
+            <uri>nea-paphos-72-a3 </uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greek</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Paphos</keyword>
+         <keyword>Roman</keyword>
+         <keyword>temple</keyword>
+         <keyword>Asklepieion</keyword>
+         <keyword>Asclepius</keyword>
+         <keyword>Asklepius</keyword>
+         <keyword>building</keyword>
+         <keyword>Cyprus</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-07-29</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-07-29</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in intial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

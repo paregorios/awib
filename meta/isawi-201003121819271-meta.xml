@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+    <status>ready</status>
+    <license-release-verified>yes</license-release-verified>
+    <isaw-publish-cleared>yes</isaw-publish-cleared>
+    <review-notes/>
+    <image-files>
+        <image type="thumbnail" href="../thumbnails/isawi-201003121819271-thumb.jpg"/>
+        <image type="review" href="../review-images/isawi-201003121819271-review.jpg"/>
+        <image type="master" href="../masters/isawi-201003121819271-master.tif"/>
+        <image type="original" href="../originals/isawi-201003121819271-original.jpg"/>
+    </image-files>
+    <info type="original">
+        <original-file-name>AG_1.jpg</original-file-name>
+        <origin>undetermined</origin>
+        <title/>
+        <flickr-url/>
+        <fda-handle/>
+        <photographer>
+            <name>Nicola</name>
+        </photographer>
+        <authority/>
+        <description> (Nicola; ; ; )</description>
+        <date-photographed/>
+        <date-scanned/>
+        <copyright-holder/>
+        <copyright-date/>
+        <copyright-contact/>
+        <license>undetermined</license>
+    </info>
+    <info type="isaw">
+        <title>Ain el-Gedida (I)</title>
+        <flickr-url>http://www.flickr.com/photos/isawnyu/4526706084/in/set-72157623870963450/</flickr-url>
+        <fda-handle/>
+        <photographer>
+            <given-name>Nicola</given-name>
+            <family-name>Aravecchia</family-name>
+        </photographer>
+        <authority/>
+        <description>map of Ain el-Gedida</description>
+        <date-photographed/>
+        <date-scanned/>
+        <copyright-holder>Nicola Aravecchia</copyright-holder>
+        <copyright-date/>
+        <copyright-contact/>
+        <license>cc-by</license>
+        <geography>
+            <photographed-place>
+                <ancient-name/>
+                <modern-name>Ain el-Gedida</modern-name>
+                <uri/>
+                <institution/>
+            </photographed-place>
+            <find-place/>
+            <original-place/>
+        </geography>
+        <chronology/>
+        <prosopography/>
+        <typology>
+            <keyword>ancient</keyword>
+            <keyword>egypt</keyword>
+            <keyword>roman</keyword>
+            <keyword>christian</keyword>
+            <keyword>dakhleh</keyword>
+            <keyword>dakhla</keyword>
+            <keyword>oasis</keyword>
+            <keyword>ain el-gedida</keyword>
+            <keyword>archaeology</keyword>
+            <keyword>egyptology</keyword>
+            <keyword>history</keyword>
+        </typology>
+        <notes/>
+    </info>
+    <change-history>
+        <change>
+            <date>2010-03-12</date>
+            <agent>script</agent>
+            <description>created this metadata file automatically, using (where available)
+                information extracted from the original image headers</description>
+        </change>
+        <change>
+            <date>2010-03-12</date>
+            <agent>John Sarlitto</agent>
+            <description>ISAW information, geography, typology partially entered</description>
+        </change>
+        <change>
+            <date>2010-04-16</date>
+            <agent>John Sarlitto</agent>
+            <description>Metadata verified, image published on Flickr</description>
+        </change>
+    </change-history>
+</image-info>

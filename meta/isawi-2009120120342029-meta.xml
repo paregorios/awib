@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009120120342029-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009120120342029-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009120120342029-master.tif"/>
+      <image type="original" href="../originals/isawi-2009120120342029-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide029.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>El-Lahun (f)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>The pyramid of Senusret II at El-Lahun.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>El-Lahun</modern-name>
+            <uri>el-lahun-75-d2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>Egypt</keyword>
+         <keyword>Egyptology</keyword>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>Lahun</keyword>
+         <keyword>pyramid</keyword>
+         <keyword>village</keyword>
+         <keyword>Senusret</keyword>
+         <keyword>architecture</keyword>
+         <keyword>building</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-12-01</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-12-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for isaw information, geography and
+            typology.</description>
+      </change>
+   </change-history>
+</image-info>

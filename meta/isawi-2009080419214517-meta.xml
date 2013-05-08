@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009080419214517-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009080419214517-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009080419214517-master.tif"/>
+      <image type="original" href="../originals/isawi-2009080419214517-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide24.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Porta Negra in Trier (d)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>The view from the 3rd level of the Porta Negra in Trier.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Augusta Treverorum</ancient-name>
+            <modern-name>Trier</modern-name>
+            <uri>vicus-voclannionum-11-g3 </uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>settlement</keyword>
+         <keyword>architecture</keyword>
+         <keyword>building</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Trier</keyword>
+         <keyword>Porta</keyword>
+         <keyword>Negra</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-08-04</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-08-05</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in intial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

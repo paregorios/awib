@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201206202123593-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201206202123593-review.jpg"/>
+      <image type="master" href="../masters/isawi-201206202123593-master.tif"/>
+      <image type="original" href="../originals/isawi-201206202123593-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>DSC03575_1.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-21</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Hostel near Marea (III)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/7733747644/in/set-72157625455716154/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Iris</given-name>
+         <family-name>Fernandez</family-name>
+      </photographer>
+      <authority/>
+      <description>An ancient structure south of Marea that was probably a villa turned into a
+         hostel to serve the pilgrims headed towards Abu Mena. </description>
+      <date-photographed>2009-03-21</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Iris Fernandez</copyright-holder>
+      <copyright-date>2009-03-21</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Mareia</ancient-name>
+            <modern-name>Marea</modern-name>
+            <uri>http://pleiades.stoa.org/places/727153/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>egypt</keyword>
+         <keyword>marea</keyword>
+         <keyword>mareia</keyword>
+         <keyword>hostel</keyword>
+         <keyword>roman</keyword>
+         <keyword>villa</keyword>
+         <keyword>pilgrim</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>history</keyword>
+         <keyword>ruins</keyword>
+         <keyword>stone</keyword>
+         <keyword>brick</keyword>
+         <keyword>domus</keyword>
+         <keyword>courtyard</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-06-20</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-07-12</date>
+         <agent>Roko Rumora</agent>
+         <description>Added all info except Titles, Descriptions, Typology and Anc/Mod
+            Location.</description>
+      </change>
+      <change>
+         <date>2012-07-17</date>
+         <agent>Iris Fernandez</agent>
+         <description>Entered Typology</description>
+      </change>
+      <change>
+         <date>2012-08-07</date>
+         <agent>Iris Fernandez</agent>
+         <description>Finished entering metadata and uploaded to Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

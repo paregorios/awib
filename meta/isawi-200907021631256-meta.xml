@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200907021631256-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200907021631256-review.jpg"/>
+      <image type="master" href="../masters/isawi-200907021631256-master.tif"/>
+      <image type="original" href="../originals/isawi-200907021631256-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Umm el-Dabadib, N settlement, second level door.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Ummm el-Dabadib, northern settlement (IV)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4566383796/in/set-72157623839588501/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <name>NYU Excavations at Amheida Staff</name>
+      </photographer>
+      <authority>Image published on the authority of the Amheida Project Director, Roger
+         Bagnall</authority>
+      <description>A view of a second-level door in the Roman northern settlement at Ummm el-Dabadib
+         in the Kharga Oasis.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>NYU Excavations at Amheida</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Ummm el-Dabadib</modern-name>
+            <uri>http://pleiades.stoa.org/places/776237</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>Egypt</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>architecture</keyword>
+         <keyword>roman</keyword>
+         <keyword>settlement</keyword>
+         <keyword>ummm el-dabadib</keyword>
+         <keyword>Kharga</keyword>
+         <keyword>Oasis</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-07-02</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-07-02</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for isaw information, geography and
+            typology</description>
+      </change>
+      <change>
+         <date>2010-04-29</date>
+         <agent>John Sarlitto</agent>
+         <description>Meta-data verified and updated; typology updated; image published to
+            Flickr</description>
+      </change>
+      <change>
+         <date>2010-06-08</date>
+         <agent>John Sarlitto</agent>
+         <description>Pleiades URI added</description>
+      </change>
+   </change-history>
+</image-info>

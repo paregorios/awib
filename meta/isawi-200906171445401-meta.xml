@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906171445401-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906171445401-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906171445401-master.tif"/>
+      <image type="original" href="../originals/isawi-200906171445401-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Borg el-Hammam (1).jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Borg el-Hammam (I)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name>NYU Excavations at Amheida Staff</name>
+      </photographer>
+      <authority>Image published on the authority of the Amheida Project Director, Roger
+         Bagnall</authority>
+      <description>A mud-brick pigeon tower in Kharga Oasis.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>NYU Excavations at Amheida</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name/>
+            <uri/>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>Egypt</keyword>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>town</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>mud</keyword>
+         <keyword>brick</keyword>
+         <keyword>Borg</keyword>
+         <keyword>Hammam</keyword>
+         <keyword>kharga</keyword>
+         <keyword>oasis</keyword>
+         <keyword>structure</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>pigeon</keyword>
+         <keyword>tower</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-17</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-17</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

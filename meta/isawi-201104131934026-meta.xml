@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201104131934026-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201104131934026-review.jpg"/>
+      <image type="master" href="../masters/isawi-201104131934026-master.tif"/>
+      <image type="original" href="../originals/isawi-201104131934026-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>DSC00010_1.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Mammisi at Edfu (III)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5864960886/in/set-72157626907730787/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Iris</given-name>
+         <family-name>Fernandez</family-name>
+      </photographer>
+      <authority/>
+      <description>A relief in the mammisi of the Ptolemaic temple to Horus at Edfu. The relief
+         depicts the birth of Harsomptus from a lotus (son of Horus and Hathor at left), and the
+         suckling of Harsomptus by Hathor (at right). The figures have been defaced, likely by early
+         Christians.</description>
+      <date-photographed>2009-03-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Iris Fernandez</copyright-holder>
+      <copyright-date>2009-03-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Apollonia</ancient-name>
+            <modern-name>Edfu</modern-name>
+            <uri>http://pleiades.stoa.org/places/109803744 </uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Egypt</keyword>
+         <keyword>Egyptology</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>Edfu</keyword>
+         <keyword>Edfou</keyword>
+         <keyword>Apollonia</keyword>
+         <keyword>Apollonos</keyword>
+         <keyword>temple</keyword>
+         <keyword>horus</keyword>
+         <keyword>stone</keyword>
+         <keyword>masonry</keyword>
+         <keyword>architecture</keyword>
+         <keyword>dodekaschoinos</keyword>
+         <keyword>mammisi</keyword>
+         <keyword>relief</keyword>
+         <keyword>decorate</keyword>
+         <keyword>carve</keyword>
+         <keyword>harsomptus</keyword>
+         <keyword>harsomtus</keyword>
+         <keyword>hathor</keyword>
+         <keyword>birth</keyword>
+         <keyword>lotus</keyword>
+         <keyword>suck</keyword>
+         <keyword>paint</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-13</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-13</date>
+         <agent>Nate Nagy </agent>
+         <description>entered in isaw information, geography and typology, and uploaded to
+            FlickR.</description>
+      </change>
+   </change-history>
+</image-info>

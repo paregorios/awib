@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201206131548122-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201206131548122-review.jpg"/>
+      <image type="master" href="../masters/isawi-201206131548122-master.tif"/>
+      <image type="original" href="../originals/isawi-201206131548122-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>DSC03822_1.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-23</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Khufu's Pyramid Complex (II)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/7832656340/in/set-72157631179779536/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Iris</given-name>
+         <family-name>Fernandez</family-name>
+      </photographer>
+      <authority/>
+      <description>The pyramid tomb built for Khufu who ruled during the Fourth Dynasty of Egypt's
+         Old Kingdom. Khufu was the second pharaoh of the Fourth Dynasty but built the first and the
+         largest of the three major pyramids at Giza. This pyramid is known as the Great Pyramid of
+         Giza and is one of the Seven Wonders of the Ancient World. This photo shows the entrance
+         into the pyramid a little ways up and you can see its immense size in comparison to the
+         people walking around it. </description>
+      <date-photographed>2009-03-23</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Iris Fernandez</copyright-holder>
+      <copyright-date>2009-03-23</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Giza</modern-name>
+            <uri>http://pleiades.stoa.org/places/442962448/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>wonder</keyword>
+         <keyword>giza</keyword>
+         <keyword>gizah</keyword>
+         <keyword>gizeh</keyword>
+         <keyword>giseh</keyword>
+         <keyword>kingdom</keyword>
+         <keyword>pyramids</keyword>
+         <keyword>pyramid</keyword>
+         <keyword>sphinx</keyword>
+         <keyword>pharaoh</keyword>
+         <keyword>stone</keyword>
+         <keyword>building</keyword>
+         <keyword>necropolis</keyword>
+         <keyword>ancient</keyword>
+         <keyword>khufu</keyword>
+         <keyword>kheops</keyword>
+         <keyword>cheops</keyword>
+         <keyword>fourth</keyword>
+         <keyword>dynasty</keyword>
+         <keyword>old</keyword>
+         <keyword>kingdom</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-06-13</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-07-17</date>
+         <agent>Roko Rumora</agent>
+         <description>added basic info, some typology, and geography, but left the titles and
+            descriptions for Iris.</description>
+      </change>
+      <change>
+         <date>2012-08-17</date>
+         <agent>Iris Fernandez</agent>
+         <description>Entered Titles and some descriptions</description>
+      </change>
+      <change>
+         <date>2012-08-21</date>
+         <agent>Iris Fernandez</agent>
+         <description>Finished entering metadata and uploaded to Flickr. </description>
+      </change>
+   </change-history>
+</image-info>

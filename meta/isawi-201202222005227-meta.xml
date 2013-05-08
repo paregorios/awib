@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201202222005227-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201202222005227-review.jpg"/>
+      <image type="master" href="../masters/isawi-201202222005227-master.tif"/>
+      <image type="original" href="../originals/isawi-201202222005227-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Amarna 011.jpg</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-09</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Central City Amarna (II)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/7345418846/in/set-72157630004483495/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kyera</given-name>
+         <family-name>Giannini</family-name>
+      </photographer>
+      <authority/>
+      <description>The surrounding landscape and mudbrick remains of the Central City area at
+         Amarna.</description>
+      <date-photographed>2009-03-09</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Kyera Giannini</copyright-holder>
+      <copyright-date>2009-03-09</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Amarna</modern-name>
+            <uri>http://pleiades.stoa.org/places/149576487</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>excavation</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>amarna</keyword>
+         <keyword>pharaoh</keyword>
+         <keyword>akhetaten</keyword>
+         <keyword>akhenaten</keyword>
+         <keyword>amenhotep</keyword>
+         <keyword>eighteenth</keyword>
+         <keyword>dynasty</keyword>
+         <keyword>new</keyword>
+         <keyword>kingdom</keyword>
+         <keyword>capital</keyword>
+         <keyword>sun</keyword>
+         <keyword>god</keyword>
+         <keyword>aten</keyword>
+         <keyword>terrain</keyword>
+         <keyword>mud</keyword>
+         <keyword>brick</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-02-22</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-05-30</date>
+         <agent>Iris Fernandez</agent>
+         <description>Entered in some Typology and Isaw information.</description>
+      </change>
+      <change>
+         <date>2012-05-31</date>
+         <agent>Iris Fernandez</agent>
+         <description>Entered Geography.</description>
+      </change>
+      <change>
+         <date>2012-06-01</date>
+         <agent>Iris Fernandez</agent>
+         <description>Finished entering in Typology.</description>
+      </change>
+      <change>
+         <date>2012-06-05</date>
+         <agent>Iris Fernandez</agent>
+         <description>Uploaded to Flickr</description>
+      </change>
+   </change-history>
+</image-info>

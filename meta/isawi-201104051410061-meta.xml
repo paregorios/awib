@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201104051410061-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201104051410061-review.jpg"/>
+      <image type="master" href="../masters/isawi-201104051410061-master.tif"/>
+      <image type="original" href="../originals/isawi-201104051410061-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P1100478.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Temple of Hercules at Madaba</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5596601072/in/set-72157626319672995</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Sarah</given-name>
+         <family-name>Ferguson</family-name>
+      </photographer>
+      <authority/>
+      <description>View of columns of the temple of Hercules at Madaba, Jordan.</description>
+      <date-photographed>2009-10-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Sara Ferguson</copyright-holder>
+      <copyright-date>2009-10-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Madaba</ancient-name>
+            <modern-name>Madaba</modern-name>
+            <uri>http://pleiades.stoa.org/places/697701/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>excavation</keyword>
+         <keyword>hellenistic</keyword>
+         <keyword>roman</keyword>
+         <keyword>jordan</keyword>
+         <keyword>madaba</keyword>
+         <keyword>hercules</keyword>
+         <keyword>antiochia</keyword>
+         <keyword>byzantine</keyword>
+         <keyword>polis</keyword>
+         <keyword>city</keyword>
+         <keyword>ruin</keyword>
+         <keyword>pillar</keyword>
+         <keyword>temple</keyword>
+         <keyword>stone</keyword>
+         <keyword>wall </keyword>
+         <keyword>tower</keyword>
+         <keyword>column</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-05</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-05</date>
+         <agent>Irene Soto</agent>
+         <description>entered in isaw info, geography and typology.</description>
+      </change>
+   </change-history>
+</image-info>

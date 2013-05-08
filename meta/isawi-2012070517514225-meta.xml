@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2012070517514225-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2012070517514225-review.jpg"/>
+      <image type="master" href="../masters/isawi-2012070517514225-master.tif"/>
+      <image type="original" href="../originals/isawi-2012070517514225-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>IMG_5705.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name>Picasa</name>
+      </photographer>
+      <authority/>
+      <description> </description>
+      <date-photographed>2012-03-14</date-photographed>
+      <date-scanned/>
+      <copyright-holder>R Rumora</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Arch of the Argentaii (I)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/7556338464/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>R</given-name>
+         <family-name>Rumora</family-name>
+      </photographer>
+      <authority/>
+      <description>The Arcus Argentariorum (Arch of the Money-changers) is today partly incorporated
+         into the church of San Giorgio Al Velabro. It was commissioned by local money-changers and
+         merchants in honor of Septimius Severus and his family. The imperial family is depicted on
+         the arch, but the face of Geta has been chiseled out after he suffered damnatio memoriae by
+         Caracalla. </description>
+      <date-photographed>2012-03-10</date-photographed>
+      <date-scanned/>
+      <copyright-holder>R Rumora</copyright-holder>
+      <copyright-date>2012-03-10</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Roma</ancient-name>
+            <modern-name>Rome</modern-name>
+            <uri>http://pleiades.stoa.org/places/423025</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>roman</keyword>
+         <keyword>rome</keyword>
+         <keyword>history</keyword>
+         <keyword>archeology</keyword>
+         <keyword>imperial</keyword>
+         <keyword>art</keyword>
+         <keyword>ancient</keyword>
+         <keyword>marble</keyword>
+         <keyword>arch</keyword>
+         <keyword>argentarii</keyword>
+         <keyword>argentariorum</keyword>
+         <keyword>arcus</keyword>
+         <keyword>moneychangers</keyword>
+         <keyword>severan</keyword>
+         <keyword>damnatio</keyword>
+         <keyword>memoriae</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-07-05</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-07-05</date>
+         <agent>Roko Rumora</agent>
+         <description>Added all necessary metadata information and prepared for upload to
+            Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

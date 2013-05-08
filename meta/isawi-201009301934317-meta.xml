@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201009301934317-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201009301934317-review.jpg"/>
+      <image type="master" href="../masters/isawi-201009301934317-master.tif"/>
+      <image type="original" href="../originals/isawi-201009301934317-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P9094376.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2010-09-09</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Temple of Olympian Zeus (V)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5054946927/in/set-72157625103677638/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Irene</given-name>
+         <family-name>Soto</family-name>
+      </photographer>
+      <authority/>
+      <description>The temple of Olympian Zeus in Athens.</description>
+      <date-photographed>2010-09-09</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Irene Soto</copyright-holder>
+      <copyright-date>2010-09-09</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Athenae</ancient-name>
+            <modern-name>Athens</modern-name>
+            <uri>athenae-59-b3</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greece</keyword>
+         <keyword>Greek</keyword>
+         <keyword>Athens</keyword>
+         <keyword>Athenae</keyword>
+         <keyword>Attic</keyword>
+         <keyword>temple</keyword>
+         <keyword>olympian</keyword>
+         <keyword>Zeus</keyword>
+         <keyword>masonry</keyword>
+         <keyword>building</keyword>
+         <keyword>structure</keyword>
+         <keyword>pillar</keyword>
+         <keyword>column</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2010-09-30</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2010-10-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered isaw information, typology and geography, and posted the image to
+            Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

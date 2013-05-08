@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906101634431-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906101634431-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906101634431-master.tif"/>
+      <image type="original" href="../originals/isawi-200906101634431-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>dona219002.JPG</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>Fontayne Mitas scanned K McDonnell 35 mm slide on Feb 19, 1998. Countryside
+         between Florence and Siena (closer to Siena).</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Siena (a)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>K.</given-name>
+         <family-name>McDonnell</family-name>
+      </photographer>
+      <authority/>
+      <description>View of the countryside between Siena and Florence (closer to
+         Siena).</description>
+      <date-photographed/>
+      <date-scanned>1998-02-19</date-scanned>
+      <copyright-holder>K. McDonnell</copyright-holder>
+      <copyright-date>1998-02-19</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Siena</modern-name>
+            <uri>saena-42-a2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>Siena</keyword>
+         <keyword>landscape</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-10</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-10</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information partially entered; modern photographed place name
+            entered</description>
+      </change>
+      <change>
+         <date>2009-07-20</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

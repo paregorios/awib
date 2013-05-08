@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201002121941202-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201002121941202-review.jpg"/>
+      <image type="master" href="../masters/isawi-201002121941202-master.tif"/>
+      <image type="original" href="../originals/isawi-201002121941202-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide002.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Karanis (bi)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>a mudbrick structure at Karanis, with a wall niche and some remaining wall
+         plaster in the foreground</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Karanis</ancient-name>
+            <modern-name>Kom Awshim</modern-name>
+            <uri>karanis-75-d1</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>hellenistic</keyword>
+         <keyword>greek</keyword>
+         <keyword>ptolemaic</keyword>
+         <keyword>roman</keyword>
+         <keyword>karanis</keyword>
+         <keyword>kom awshim</keyword>
+         <keyword>fayum</keyword>
+         <keyword>fayoum</keyword>
+         <keyword>mudbrick</keyword>
+         <keyword>niche</keyword>
+         <keyword>plaster</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>history</keyword>
+         <keyword>egyptology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2010-02-12</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2010-02-12</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography, typology partially entered</description>
+      </change>
+   </change-history>
+</image-info>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2012060718374739-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2012060718374739-review.jpg"/>
+      <image type="master" href="../masters/isawi-2012060718374739-master.tif"/>
+      <image type="original" href="../originals/isawi-2012060718374739-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>DSC03489_1.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-21</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Iris Fernandez</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Baths at Abu Mena (XXII)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/7551801632/in/set-72157629273411032/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Iris</given-name>
+         <family-name>Fernandez</family-name>
+      </photographer>
+      <authority/>
+      <description>The thermae of the bath complex at Abu Mena. The baths at Abu Mena were extremely
+         important to the ancient pilgrimage site because the water was supposed to have had
+         curative powers. </description>
+      <date-photographed>2009-03-21</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Iris Fernandez</copyright-holder>
+      <copyright-date>2009-03-21</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Abu Mena</modern-name>
+            <uri>http://pleiades.stoa.org/places/727105</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>abu</keyword>
+         <keyword>mina</keyword>
+         <keyword>mena</keyword>
+         <keyword>deir</keyword>
+         <keyword>archeology</keyword>
+         <keyword>saint</keyword>
+         <keyword>menas</keyword>
+         <keyword>stone</keyword>
+         <keyword>building</keyword>
+         <keyword>brick</keyword>
+         <keyword>thermae</keyword>
+         <keyword>bath</keyword>
+         <keyword>ruins</keyword>
+         <keyword>pilgrimage</keyword>
+         <keyword>christian</keyword>
+         <keyword>antiquity</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-06-07</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-06-14</date>
+         <agent>Roko Rumora</agent>
+         <description>Added geography, typology, and some isaw info, but not the titles and
+            descriptions. </description>
+      </change>
+      <change>
+         <date>2012-06-20</date>
+         <agent>Iris Fernandez</agent>
+         <description>Added title, description, and some typology.</description>
+      </change>
+      <change>
+         <date>2012-07-11</date>
+         <agent>Iris Fernandez</agent>
+         <description>Finished filling in all the metadata and uploaded to Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

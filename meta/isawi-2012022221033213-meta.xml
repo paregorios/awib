@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2012022221033213-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2012022221033213-review.jpg"/>
+      <image type="master" href="../masters/isawi-2012022221033213-master.tif"/>
+      <image type="original" href="../originals/isawi-2012022221033213-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name/>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-04</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Kyera Giannini</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Ptolemaic Temple Reliefs at Deir el-Medina (IV)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/8252349747</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kyera</given-name>
+         <family-name>Giannini</family-name>
+      </photographer>
+      <authority/>
+      <description>A Hathor Column depicted as a painted relief in the Ptolemaic Temple to Hathor at
+         Deir el-Medina. </description>
+      <date-photographed>2009-03-04</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Kyera Giannini</copyright-holder>
+      <copyright-date>2009-03-04</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Deir el-Medina</modern-name>
+            <uri>http://pleiades.stoa.org/places/864388873/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>stone</keyword>
+         <keyword>building</keyword>
+         <keyword>structure</keyword>
+         <keyword>site</keyword>
+         <keyword>archaeological</keyword>
+         <keyword>civilization</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>brick</keyword>
+         <keyword>deir</keyword>
+         <keyword>medina</keyword>
+         <keyword>workers</keyword>
+         <keyword>village</keyword>
+         <keyword>ptolemies</keyword>
+         <keyword>ptolemy</keyword>
+         <keyword>philopator</keyword>
+         <keyword>temple</keyword>
+         <keyword>hathor</keyword>
+         <keyword>sunken</keyword>
+         <keyword>relief</keyword>
+         <keyword>painted</keyword>
+         <keyword>column</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-02-22</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-07-18</date>
+         <agent>Roko Rumora</agent>
+         <description>Added photographer info, and some typology.</description>
+      </change>
+      <change>
+         <date>2012-11-27</date>
+         <agent>Iris Fernandez</agent>
+         <description>Added titles and started descriptions.</description>
+      </change>
+      <change>
+         <date>2012-12-07</date>
+         <agent>Iris Fernandez</agent>
+         <description>Finished entering metadata and uploaded to Flickr. </description>
+      </change>
+   </change-history>
+</image-info>

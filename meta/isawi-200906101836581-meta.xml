@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200906101836581-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200906101836581-review.jpg"/>
+      <image type="master" href="../masters/isawi-200906101836581-master.tif"/>
+      <image type="original" href="../originals/isawi-200906101836581-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>dona219011.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description>F Mitas scanned K McDonnell's 35 mm slide on 2/19/98 Pantheon,
+         rome.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Pantheon (II)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4924747566/in/set-72157622830939183/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kathryn </given-name>
+         <family-name>McDonnell</family-name>
+      </photographer>
+      <authority/>
+      <description>View of the entrance colonnade to the Pantheon.</description>
+      <date-photographed/>
+      <date-scanned>1998-02-19</date-scanned>
+      <copyright-holder>Kathryn McDonell </copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Roma</ancient-name>
+            <modern-name>Rome</modern-name>
+            <uri>roma-43-b2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Roman</keyword>
+         <keyword>building</keyword>
+         <keyword>stone</keyword>
+         <keyword>colonnade</keyword>
+         <keyword>pillar</keyword>
+         <keyword>column</keyword>
+         <keyword>architecture</keyword>
+         <keyword>masonry</keyword>
+         <keyword>Rome</keyword>
+         <keyword>Pantheon</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-10</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-10</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for "isaw information"</description>
+      </change>
+      <change>
+         <date>2009-07-20</date>
+         <agent>Nate Nagy</agent>
+         <description>added to initial content in isaw information, typology and
+            geography</description>
+      </change>
+   </change-history>
+</image-info>

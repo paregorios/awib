@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009120120342020-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009120120342020-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009120120342020-master.tif"/>
+      <image type="original" href="../originals/isawi-2009120120342020-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide020.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>El Deir (c)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>A partially-collapsed mud-brick structure, suggested to be a church, near the
+         Roman fortress at el-Deir in the Kharga Oasis.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>el-Dier</modern-name>
+            <uri>el-deir-79-d2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Egypt</keyword>
+         <keyword>Egyptology</keyword>
+         <keyword>Roman</keyword>
+         <keyword>fortress</keyword>
+         <keyword>Deir</keyword>
+         <keyword>Kharga</keyword>
+         <keyword>Oasis</keyword>
+         <keyword>architecture</keyword>
+         <keyword>building</keyword>
+         <keyword>church</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-12-01</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-12-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for isaw information, geography and
+            typology.</description>
+      </change>
+   </change-history>
+</image-info>

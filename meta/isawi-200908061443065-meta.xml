@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200908061443065-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200908061443065-review.jpg"/>
+      <image type="master" href="../masters/isawi-200908061443065-master.tif"/>
+      <image type="original" href="../originals/isawi-200908061443065-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide005.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Yardangs in Al Heiz (c)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>A field of yardangs, wind formations also called "mud lions," in Al Heiz in
+         Bahariya Oasis.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Al Heiz</modern-name>
+            <uri>ain-el-hayz-73-inset </uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>Bahariya</keyword>
+         <keyword>Oasis</keyword>
+         <keyword>Egypt</keyword>
+         <keyword>Heiz</keyword>
+         <keyword>mud</keyword>
+         <keyword>lion</keyword>
+         <keyword>yardang</keyword>
+         <keyword>landscape</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-08-06</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-08-06</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in intial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

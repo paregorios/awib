@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200911172036407-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200911172036407-review.jpg"/>
+      <image type="master" href="../masters/isawi-200911172036407-master.tif"/>
+      <image type="original" href="../originals/isawi-200911172036407-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide007.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Beleida (k)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>The exterior of a portion of the temple at Beleida.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Beleida</modern-name>
+            <uri>beleida-79-c3</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>kharga</keyword>
+         <keyword>magna</keyword>
+         <keyword>oasis</keyword>
+         <keyword>beleida</keyword>
+         <keyword>exterior</keyword>
+         <keyword>temple</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>egyptology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-11-17</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-11-17</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography, typology partially entered</description>
+      </change>
+   </change-history>
+</image-info>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009103016141511-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009103016141511-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009103016141511-master.tif"/>
+      <image type="original" href="../originals/isawi-2009103016141511-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide011.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Badia (e)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger</given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>The Roman fort at Badia, with the surrounding plain and Gebel el-Dokhan in the
+         background.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Roger Bagnall</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Badia</modern-name>
+            <uri/>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>civilization</keyword>
+         <keyword>history</keyword>
+         <keyword>Roman</keyword>
+         <keyword>fort</keyword>
+         <keyword>badia</keyword>
+         <keyword>Egypt</keyword>
+         <keyword>Egyptology</keyword>
+         <keyword>gebel</keyword>
+         <keyword>dokhan</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-10-30</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-10-30</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for isaw information, geography and
+            typology</description>
+      </change>
+   </change-history>
+</image-info>

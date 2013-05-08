@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-20101014160451149-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-20101014160451149-review.jpg"/>
+      <image type="master" href="../masters/isawi-20101014160451149-master.tif"/>
+      <image type="original" href="../originals/isawi-20101014160451149-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P9144773.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2010-09-14</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Theater District (XXIII)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Irene</given-name>
+         <family-name>Soto</family-name>
+      </photographer>
+      <authority/>
+      <description>A mosaic floor in a house in Delos' theater district. A smaller mosaic to the
+         side of the large central pattern depicts an anchor.</description>
+      <date-photographed>2010-09-14</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Irene Soto</copyright-holder>
+      <copyright-date>2010-09-14</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Delos</ancient-name>
+            <modern-name>Delos</modern-name>
+            <uri>http://pleiades.stoa.org/places/599587/</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Greece</keyword>
+         <keyword>Greek</keyword>
+         <keyword>Delos</keyword>
+         <keyword>Cyclades</keyword>
+         <keyword>island</keyword>
+         <keyword>ruin</keyword>
+         <keyword>marble</keyword>
+         <keyword>stone</keyword>
+         <keyword>masonry</keyword>
+         <keyword>house</keyword>
+         <keyword>floor</keyword>
+         <keyword>mosaic</keyword>
+         <keyword>theater</keyword>
+         <keyword>theatre</keyword>
+         <keyword>district</keyword>
+         <keyword>anchor</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2010-10-14</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+   </change-history>
+</image-info>

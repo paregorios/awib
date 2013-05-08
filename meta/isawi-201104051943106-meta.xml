@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201104051943106-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201104051943106-review.jpg"/>
+      <image type="master" href="../masters/isawi-201104051943106-master.tif"/>
+      <image type="original" href="../originals/isawi-201104051943106-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P1020096.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Stonehenge (VI)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/5596569416/in/set-72157626319612751/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Sarah</given-name>
+         <family-name>Ferguson</family-name>
+      </photographer>
+      <authority/>
+      <description>Stonehenge, a Bronze Age monolith located in Wiltshire County, England, viewed
+         from the Heelstone. The Heelstone is a rough, 16-foot-tall stone lying just outside the
+         main entrance to the henge. Standing within Stonehenge on the summer solstice, facing
+         towards the Heelstone in the northeast, the sun can be seen rising above the
+         stone.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder>Sarah Ferguson</copyright-holder>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Stonehenge</modern-name>
+            <uri/>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>England</keyword>
+         <keyword>Britain</keyword>
+         <keyword>United</keyword>
+         <keyword>Kingdom</keyword>
+         <keyword>Briton</keyword>
+         <keyword>bronze</keyword>
+         <keyword>age</keyword>
+         <keyword>henge</keyword>
+         <keyword>monolith</keyword>
+         <keyword>stone</keyword>
+         <keyword>carve</keyword>
+         <keyword>monument</keyword>
+         <keyword>structure</keyword>
+         <keyword>druid</keyword>
+         <keyword>heelstone</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-05</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-05</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in isaw information, geography, and typology, and uploaded to
+            Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

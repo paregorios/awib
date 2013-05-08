@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?><?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?><image-info>
+   <status>draft</status>
+   <license-release-verified>no</license-release-verified>
+   <isaw-publish-cleared>no</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-200912012034206-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-200912012034206-review.jpg"/>
+      <image type="master" href="../masters/isawi-200912012034206-master.tif"/>
+      <image type="original" href="../originals/isawi-200912012034206-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Slide006.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Dionysias (f)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Roger </given-name>
+         <family-name>Bagnall</family-name>
+      </photographer>
+      <authority/>
+      <description>The temple of Sobek at the Roman town of Dionysias at Qasr Qarun.</description>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Dionysias</ancient-name>
+            <modern-name>Qasr Qarun</modern-name>
+            <uri>dionysias-75-c2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>egypt</keyword>
+         <keyword>egyptian</keyword>
+         <keyword>roman</keyword>
+         <keyword>faiyum</keyword>
+         <keyword>oasis</keyword>
+         <keyword>dionysias</keyword>
+         <keyword>qasr qarun</keyword>
+         <keyword>landscape</keyword>
+         <keyword>desert</keyword>
+         <keyword>history</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>architecture</keyword>
+         <keyword>building</keyword>
+         <keyword>masonry</keyword>
+         <keyword>temple</keyword>
+         <keyword>Sobek</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-12-01</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-12-04</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in initial content for isaw information, geography and
+            typology.</description>
+      </change>
+   </change-history>
+</image-info>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201104111703211-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201104111703211-review.jpg"/>
+      <image type="master" href="../masters/isawi-201104111703211-master.tif"/>
+      <image type="original" href="../originals/isawi-201104111703211-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P1110405.jpg</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-09-10</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Petroglyphs </title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/6842504807/in/set-72157629233964885</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Sarah</given-name>
+         <family-name>Ferguson</family-name>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2011-09-01</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Sarah Ferguson</copyright-holder>
+      <copyright-date>2011-09-01</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Wadi Rum</modern-name>
+            <uri>http://pleiades.stoa.org/places/746712</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient </keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>epigraphy</keyword>
+         <keyword>graffiti</keyword>
+         <keyword>wadi</keyword>
+         <keyword>rum</keyword>
+         <keyword>jordan</keyword>
+         <keyword>carve</keyword>
+         <keyword>inscription</keyword>
+         <keyword>caravan</keyword>
+         <keyword>camel</keyword>
+         <keyword>travel</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-11</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-11</date>
+         <agent>Irene Soto</agent>
+         <description>entered in isaw info, geography and typology.</description>
+      </change>
+   </change-history>
+</image-info>

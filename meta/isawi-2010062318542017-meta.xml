@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2010062318542017-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2010062318542017-review.jpg"/>
+      <image type="master" href="../masters/isawi-2010062318542017-master.tif"/>
+      <image type="original" href="../originals/isawi-2010062318542017-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>ostia_24.jpg</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2008-07-07</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Ostia, Neptune Baths (iv)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4727989399/in/set-72157624245479098/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>John</given-name>
+         <family-name>Sarlitto</family-name>
+      </photographer>
+      <authority/>
+      <description>Overview of the entire tile mosaic floor of the Neptune Baths at Ostia. Scenes
+         depicting Neptune and Amphitrite are visible. </description>
+      <date-photographed>2008-07-07</date-photographed>
+      <date-scanned/>
+      <copyright-holder>John Sarlitto</copyright-holder>
+      <copyright-date>2008-07-07</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Ostia</ancient-name>
+            <modern-name>Ostia Antica</modern-name>
+            <uri>ostia-43-b2</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>rome</keyword>
+         <keyword>roman</keyword>
+         <keyword>italy</keyword>
+         <keyword>italian</keyword>
+         <keyword>ostia</keyword>
+         <keyword>antica</keyword>
+         <keyword>baths</keyword>
+         <keyword>neptune</keyword>
+         <keyword>amphitrite</keyword>
+         <keyword>tile</keyword>
+         <keyword>floor</keyword>
+         <keyword>mosaic</keyword>
+         <keyword>amphitrite</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>history</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2010-06-23</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2010-06-23</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography, typology entered</description>
+      </change>
+      <change>
+         <date>2010-06-23</date>
+         <agent>John Sarlitto</agent>
+         <description>Image published to Flickr; URL added</description>
+      </change>
+   </change-history>
+</image-info>

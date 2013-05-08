@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2011041216492211-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2011041216492211-review.jpg"/>
+      <image type="master" href="../masters/isawi-2011041216492211-master.tif"/>
+      <image type="original" href="../originals/isawi-2011041216492211-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>P1100067.jpg</original-file-name>
+      <origin>undetermined</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed/>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>The Temple of Karnak (XI)</title>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <given-name>Sarah</given-name>
+         <family-name>Ferguson</family-name>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-07-22</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Sarah Ferguson</copyright-holder>
+      <copyright-date>2009-07-22</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name>Karnak</ancient-name>
+            <modern-name/>
+            <uri>http://pleiades.stoa.org/places/786050</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>Egypt</keyword>
+         <keyword>Egyptology</keyword>
+         <keyword>Karnak</keyword>
+         <keyword>Nile</keyword>
+         <keyword>Valley</keyword>
+         <keyword>temple</keyword>
+         <keyword>structure</keyword>
+         <keyword>building</keyword>
+         <keyword>architecture</keyword>
+         <keyword>stone</keyword>
+         <keyword>masonry</keyword>
+         <keyword/>
+         <keyword/>
+         <keyword/>
+         <keyword/>
+         <keyword/>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2011-04-12</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2011-04-12</date>
+         <agent>Nate Nagy</agent>
+         <description>entered in isaw information, geography and typology, and uploaded to
+            Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

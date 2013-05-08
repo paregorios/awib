@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+            href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no" ?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact" ?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-201202221952236-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-201202221952236-review.jpg"/>
+      <image type="master" href="../masters/isawi-201202221952236-master.tif"/>
+      <image type="original" href="../originals/isawi-201202221952236-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>Abu Sit 013.jpg</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2009-03-12</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>Mortuary Temple of Sahure (III)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/6922729924/in/set-72157629795599329/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <given-name>Kyera</given-name>
+         <family-name>Giannini</family-name>
+      </photographer>
+      <authority/>
+      <description>A broken block of stone that probably would have come from the ceiling as it is
+         covered with stars.</description>
+      <date-photographed>2009-03-12</date-photographed>
+      <date-scanned/>
+      <copyright-holder>Kyera Giannini</copyright-holder>
+      <copyright-date>2012-03-28</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>Abu Sir</modern-name>
+            <uri>http://pleiades.stoa.org/places/195443086</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>egyptology</keyword>
+         <keyword>egypt</keyword>
+         <keyword>abusir</keyword>
+         <keyword>abu</keyword>
+         <keyword>sir</keyword>
+         <keyword>necropolis</keyword>
+         <keyword>dynastic</keyword>
+         <keyword>pyramid</keyword>
+         <keyword>tomb</keyword>
+         <keyword>burial</keyword>
+         <keyword>temple</keyword>
+         <keyword>funerary</keyword>
+         <keyword>block</keyword>
+         <keyword>old</keyword>
+         <keyword>kingdom</keyword>
+         <keyword>fifth</keyword>
+         <keyword>dynasty</keyword>
+         <keyword>pharaoh</keyword>
+         <keyword>sahure</keyword>
+         <keyword>stone</keyword>
+         <keyword>star</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2012-02-22</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2012-04-03</date>
+         <agent>Iris Fernandez</agent>
+         <description>Entered in some Isaw information and typology</description>
+      </change>
+      <change>
+         <date>2012-04-11</date>
+         <agent>Iris Fernandez</agent>
+         <description>Entered in Isaw information, geography and uploaded to Flickr.</description>
+      </change>
+   </change-history>
+</image-info>

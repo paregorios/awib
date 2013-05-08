@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../meta/meta-oxygen.css" title="Oxygen Authoring CSS" alternate="no"?>
+<?oxygen RNGSchema="../../../meta/meta-schema.rnc"
+            type="compact"?>
+<image-info>
+   <status>ready</status>
+   <license-release-verified>yes</license-release-verified>
+   <isaw-publish-cleared>yes</isaw-publish-cleared>
+   <review-notes/>
+   <image-files>
+      <image type="thumbnail" href="../thumbnails/isawi-2009062214043910-thumb.jpg"/>
+      <image type="review" href="../review-images/isawi-2009062214043910-review.jpg"/>
+      <image type="master" href="../masters/isawi-2009062214043910-master.tif"/>
+      <image type="original" href="../originals/isawi-2009062214043910-original.jpg"/>
+   </image-files>
+   <info type="original">
+      <original-file-name>ed-Deir, remains of NE tower.JPG</original-file-name>
+      <origin>digital camera</origin>
+      <title/>
+      <flickr-url/>
+      <fda-handle/>
+      <photographer>
+         <name/>
+      </photographer>
+      <authority/>
+      <description/>
+      <date-photographed>2006-01-25</date-photographed>
+      <date-scanned/>
+      <copyright-holder/>
+      <copyright-date/>
+      <copyright-contact/>
+      <license>undetermined</license>
+   </info>
+   <info type="isaw">
+      <title>El-Deir Exterior (X)</title>
+      <flickr-url>http://www.flickr.com/photos/isawnyu/4968285043/in/set-72157624778778475/</flickr-url>
+      <fda-handle/>
+      <photographer>
+         <name>NYU Excavations at Amheida Staff</name>
+      </photographer>
+      <authority>Image published on the authority of the Amheida Project Director, Roger
+         Bagnall</authority>
+      <description>The remains of the collapsed northeast tower of the Roman fortress at El-Deir.
+         The fortress is located in the Kharga Oasis in southern Egypt.</description>
+      <date-photographed>2006-01-25</date-photographed>
+      <date-scanned/>
+      <copyright-holder>NYU Excavations at Amheida</copyright-holder>
+      <copyright-date>2006-01-25</copyright-date>
+      <copyright-contact/>
+      <license>cc-by</license>
+      <geography>
+         <photographed-place>
+            <ancient-name/>
+            <modern-name>El-Deir</modern-name>
+            <uri>http://pleiades.stoa.org/places/776167</uri>
+            <institution/>
+         </photographed-place>
+         <find-place/>
+         <original-place/>
+      </geography>
+      <chronology/>
+      <prosopography/>
+      <typology>
+         <keyword>ancient</keyword>
+         <keyword>history</keyword>
+         <keyword>civilization</keyword>
+         <keyword>egypt</keyword>
+         <keyword>kharga</keyword>
+         <keyword>oasis</keyword>
+         <keyword>deir</keyword>
+         <keyword>fort</keyword>
+         <keyword>fortification</keyword>
+         <keyword>exterior</keyword>
+         <keyword>roman</keyword>
+         <keyword>mud</keyword>
+         <keyword>brick</keyword>
+         <keyword>wall</keyword>
+         <keyword>tower</keyword>
+         <keyword>northeast</keyword>
+         <keyword>archaeology</keyword>
+         <keyword>egyptology</keyword>
+      </typology>
+      <notes/>
+   </info>
+   <change-history>
+      <change>
+         <date>2009-06-22</date>
+         <agent>script</agent>
+         <description>created this metadata file automatically, using (where available) information
+            extracted from the original image headers</description>
+      </change>
+      <change>
+         <date>2009-06-22</date>
+         <agent>John Sarlitto</agent>
+         <description>ISAW information, geography, typology partially entered</description>
+      </change>
+   </change-history>
+</image-info>
