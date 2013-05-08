@@ -17,30 +17,43 @@
         </xd:desc>
     </xd:doc>
     
+    <xsl:param name="sourcedir">../meta/</xsl:param>
+    
     <xsl:output method="text" encoding="UTF-8"/>
     
-    <xsl:variable name="photouri">
-        <xsl:variable name="url" select="//info[@type='isaw']/flickr-url"/>
-        <xsl:choose>
-            <xsl:when test="contains($url, '/in/set')">
-                <xsl:value-of select="substring-before($url, '/in/set')"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$url"/>
-            </xsl:otherwise>
-        </xsl:choose>
+    <xsl:variable name="collquery">
+        <xsl:value-of select="$sourcedir"/>
+        <xsl:text>?select=*.xml</xsl:text>
     </xsl:variable>
-
     
-    <xsl:template match="/">
-        <xsl:apply-templates/>
+    <xsl:template name="makettl">
+        <xsl:message>trying "<xsl:value-of select="$collquery"/>"</xsl:message>
+        <xsl:for-each select="collection($collquery)">
+            <xsl:message>INFO: generating RDF from <xsl:value-of select="document-uri(.)"/></xsl:message>
+            <xsl:apply-templates select="./descendant-or-self::image-info"/>
+        </xsl:for-each>
     </xsl:template>
     
+    
     <xsl:template match="image-info[status='ready' and license-release-verified='yes' and isaw-publish-cleared='yes' and starts-with(info[@type='isaw']/flickr-url, 'http://')]">
-        <xsl:apply-templates select="info[@type='isaw']"/>       
+        <xsl:apply-templates select="info[@type='isaw']"/>
+        <xsl:value-of select="$n"/>        
+        <xsl:value-of select="$n"/>        
     </xsl:template>
     
     <xsl:template match="info[@type='isaw']">
+        <xsl:variable name="photouri">
+            <xsl:variable name="url" select="//info[@type='isaw']/flickr-url"/>
+            <xsl:choose>
+                <xsl:when test="contains($url, '/in/set')">
+                    <xsl:value-of select="substring-before($url, '/in/set')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$url"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        
         <xsl:text>&lt;</xsl:text><xsl:value-of select="$photouri"/><xsl:text>&gt; a foaf:Image</xsl:text>
         <xsl:apply-templates select="title"/>
         <xsl:call-template name="photographers"/>
@@ -134,56 +147,90 @@
     <xsl:template name="contributors">
         <xsl:value-of select="$snt"/>
         <xsl:text>dcterms:contributor </xsl:text>
-        <xsl:for-each select="//change-history/change[agent != 'script']">
-            <xsl:variable name="thisagent" select="agent"/>
-            <xsl:if test="not(preceding-sibling::change[agent = $thisagent])">
-                <xsl:if test="preceding-sibling::change[1][agent != 'script' and agent != $thisagent]">
+        <xsl:for-each select="//change-history/change[agent != 'script' and normalize-space(normalize-unicode(agent, 'NFKC')) != '' and normalize-space(normalize-unicode(agent, 'NFKC')) != ' ']">
+            <xsl:variable name="thisagent" select="normalize-space(normalize-unicode(agent, 'NFKC'))"/>
+            <xsl:if test="not(preceding-sibling::change[normalize-space(normalize-unicode(agent, 'NFKC')) = $thisagent])">
+                <xsl:if test="preceding-sibling::change[1][agent != 'script' and normalize-space(normalize-unicode(agent, 'NFKC')) != $thisagent]">
                     <xsl:value-of select="$cntt"/>
                 </xsl:if>
                 <xsl:text>&lt;urn:awib:person:</xsl:text>
-                <xsl:value-of select="foo:checksum(agent)"/>
+                <xsl:value-of select="foo:checksum($thisagent)"/>
                 <xsl:text>&gt;</xsl:text>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
     
     <xsl:template name="photographers">
-        <xsl:value-of select="$snt"/>
-        <xsl:text>dcterms:creator </xsl:text>
-        <xsl:for-each select="//info[@type='isaw']/photographer">
+        <xsl:if test="./descendant-or-self::info[@type='isaw']/photographer[*[1]!='']">
+            <xsl:value-of select="$snt"/>
+            <xsl:text>dcterms:creator </xsl:text>
+            <xsl:for-each select="//info[@type='isaw']/photographer">
                 <xsl:if test="preceding-sibling::photographer">
                     <xsl:value-of select="$cntt"/>
                 </xsl:if>
+                <xsl:variable name="thisphotographer">
+                    <xsl:choose>
+                        <xsl:when test="name">
+                            <xsl:value-of select="normalize-space(normalize-unicode(name, 'NFKC'))"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="normalize-space(normalize-unicode(given-name, 'NFKC'))"/>
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="normalize-space(normalize-unicode(family-name, 'NFKC'))"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
                 <xsl:text>&lt;urn:awib:person:</xsl:text>
-                <xsl:value-of select="foo:checksum(.)"/>
+                <xsl:value-of select="foo:checksum($thisphotographer)"/>
                 <xsl:text>&gt;</xsl:text>
-        </xsl:for-each>
+            </xsl:for-each>
+        </xsl:if>
+
     </xsl:template>
     
     <xsl:template name="people">
         <xsl:for-each select="//info[@type='isaw']/photographer">
+            <xsl:variable name="thisphotographer">
+                <xsl:choose>
+                    <xsl:when test="name">
+                        <xsl:value-of select="normalize-space(normalize-unicode(name, 'NFKC'))"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="normalize-space(normalize-unicode(given-name, 'NFKC'))"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="normalize-space(normalize-unicode(family-name, 'NFKC'))"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>            
             <xsl:value-of select="$n"/>
             <xsl:text>&lt;urn:awib:person:</xsl:text>
-            <xsl:value-of select="foo:checksum(.)"/>
+            <xsl:value-of select="foo:checksum($thisphotographer)"/>
             <xsl:text>&gt; a foaf:Person</xsl:text>
             <xsl:value-of select="$snt"/>
             <xsl:text>foaf:name "</xsl:text>
-            <xsl:value-of select="given-name"/>
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="family-name"/>
+            <xsl:choose>
+                <xsl:when test="name">
+                    <xsl:value-of select="normalize-space(normalize-unicode(name, 'NFKC'))"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(normalize-unicode(given-name, 'NFKC'))"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="normalize-space(normalize-unicode(family-name, 'NFKC'))"/>
+                </xsl:otherwise>
+            </xsl:choose>            
             <xsl:text>" </xsl:text>
             <xsl:value-of select="$p"/>
         </xsl:for-each>
         <xsl:for-each select="//change-history/change[agent != 'script']">
-            <xsl:variable name="thisagent" select="agent"/>
-            <xsl:if test="not(preceding-sibling::change[agent = $thisagent])">
+            <xsl:variable name="thisagent" select="normalize-space(normalize-unicode(agent, 'NFKC'))"/>
+            <xsl:if test="not(preceding-sibling::change[normalize-space(normalize-unicode(agent, 'NFKC')) = $thisagent])">
                 <xsl:value-of select="$n"/>
                 <xsl:text>&lt;urn:awib:person:</xsl:text>
-                <xsl:value-of select="foo:checksum(agent)"/>
+                <xsl:value-of select="foo:checksum($thisagent)"/>
                 <xsl:text>&gt; a foaf:Person</xsl:text>
                 <xsl:value-of select="$snt"/>
                 <xsl:text>foaf:name "</xsl:text>
-                <xsl:value-of select="agent"/>
+                <xsl:value-of select="$thisagent"/>
                 <xsl:text>" </xsl:text>
                 <xsl:value-of select="$p"/>
             </xsl:if>
