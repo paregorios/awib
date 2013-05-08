@@ -34,14 +34,14 @@
     
     <xsl:template match="agent[.!='script']">
         <xsl:value-of select="$n"/>
-        <xsl:value-of select="."/>
+        <xsl:value-of select="normalize-space(normalize-unicode(., 'NFKC'))"/>
     </xsl:template>
     
     <xsl:template match="photographer[family-name!='' and given-name!='']">
         <xsl:value-of select="$n"/>
-        <xsl:value-of select="given-name"/>
+        <xsl:value-of select="normalize-space(normalize-unicode(given-name, 'NFKC'))"/>
         <xsl:text> </xsl:text>
-        <xsl:value-of select="family-name"/>
+        <xsl:value-of select="normalize-space(normalize-unicode(family-name, 'NFKC'))"/>
     </xsl:template>
     
     <xsl:template match="*"/>
