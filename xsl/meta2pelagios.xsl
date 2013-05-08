@@ -20,6 +20,8 @@
     
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="awibbaseuri">http://isaw.nyu.edu/awib/images/</xsl:param>
+    <xsl:param name="agenturi">https://github.com/paregorios/awib/blob/master/xsl/meta2pelagios.xsl</xsl:param>
+    <xsl:param name="agentname">meta2pelagios</xsl:param>
     
     <xsl:output method="text" encoding="UTF-8"/>
     
@@ -30,6 +32,16 @@
     
     <xsl:template name="makep">
         <xsl:call-template name="prefixes"/>
+        <xsl:value-of select="$n"/>
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="$agenturi"/>
+        <xsl:text>&gt; a prov:SoftwareAgent</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>foaf:name "</xsl:text>
+        <xsl:value-of select="$agentname"/>
+        <xsl:text>"</xsl:text>
+        <xsl:value-of select="$pn"/>
+        <xsl:value-of select="$n"/>
         <xsl:message>trying "<xsl:value-of select="$collquery"/>"</xsl:message>
         <xsl:for-each select="collection($collquery)">
             <!-- <xsl:message>INFO: generating Pelagios RDF from <xsl:value-of select="document-uri(.)"/></xsl:message> -->
@@ -76,15 +88,22 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+
+        <xsl:variable name="geouri">
+            <xsl:call-template name="emitgeouri">
+                <xsl:with-param name="context" select="geography/photographed-place"/>
+            </xsl:call-template>
+        </xsl:variable>
         
-        <xsl:text>&lt;</xsl:text><xsl:value-of select="$oaid"/><xsl:text>&gt; a oac:Annotation</xsl:text>
+        <!-- write the annotation -->
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="$oaid"/>
+        <xsl:text>&gt; a oac:Annotation</xsl:text>
         
         <xsl:value-of select="$snt"/>
         <xsl:text>oac:hasBody </xsl:text>
         <xsl:text>&lt;</xsl:text>
-        <xsl:call-template name="emitgeouri">
-            <xsl:with-param name="context" select="geography/photographed-place"/>
-        </xsl:call-template>
+        <xsl:value-of select="$geouri"/>
         <xsl:text>&gt;</xsl:text>
         
         <xsl:value-of select="$snt"/>
@@ -93,7 +112,27 @@
         <xsl:value-of select="$photouri"/>
         <xsl:text>&gt;</xsl:text>
         
+        <xsl:value-of select="$snt"/>
+        <xsl:text>oac:serializedBy </xsl:text>
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="$agenturi"/>
+        <xsl:text>&gt;</xsl:text>
+        
+        <xsl:value-of select="$snt"/>
+        <xsl:text>oac:serializedAt </xsl:text>
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="current-dateTime()"/>
+        <xsl:text>&gt;</xsl:text>
+        
         <xsl:value-of select="$pn"/>
+        
+        <!-- indicate the types -->
+        <xsl:value-of select="$n"/>
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="$photouri"/>
+        <xsl:text>&gt; a dctypes:Image</xsl:text>
+        <xsl:value-of select="$pn"/>
+        <xsl:value-of select="$n"/>
         
     </xsl:template>
     
@@ -271,6 +310,10 @@
         <xsl:text>@prefix dcterms: &lt;http://purl.org/dc/terms/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
         <xsl:text>@prefix oac: &lt;http://www.openannotation.org/ns/&gt;.</xsl:text>
+        <xsl:value-of select="$n"/>
+        <xsl:text>@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt;.</xsl:text>
+        <xsl:value-of select="$n"/>
+        <xsl:text>@prefix prov: &lt;http://www.w3.org/ns/prov#&gt;.</xsl:text>        
         <xsl:value-of select="$n"/>
         <xsl:value-of select="$n"/>
     </xsl:template>
