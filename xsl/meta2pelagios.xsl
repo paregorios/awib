@@ -61,6 +61,12 @@
         <xsl:value-of select="$agentname"/>
         <xsl:text>"</xsl:text>
         <xsl:value-of select="$pn"/>
+        <xsl:text>&lt;urn:awib:types:flickrpage&gt; a dcterms:MediaTypeOrExtent</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>rdf:value "text/html"</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>rdfs:label "HTML"</xsl:text>
+        <xsl:value-of select="$pn"/>
         <xsl:value-of select="$n"/>
         <xsl:message>trying "<xsl:value-of select="$collquery"/>"</xsl:message>
         <xsl:for-each select="collection($collquery)">
@@ -151,6 +157,8 @@
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$photouri"/>
         <xsl:text>&gt; a dctypes:Image</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:format &lt;urn:awib:types:flickrpage&gt;</xsl:text>
         <xsl:value-of select="$pn"/>
         <xsl:value-of select="$n"/>
         
@@ -329,12 +337,15 @@
     <xsl:template name="prefixes">
         <xsl:text>@prefix dcterms: &lt;http://purl.org/dc/terms/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
-        <xsl:text>@prefix oac: &lt;http://www.openannotation.org/ns/&gt;.</xsl:text>
-        <xsl:value-of select="$n"/>
         <xsl:text>@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
-        <xsl:text>@prefix prov: &lt;http://www.w3.org/ns/prov#&gt;.</xsl:text>        
+        <xsl:text>@prefix oac: &lt;http://www.openannotation.org/ns/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
+        <xsl:text>@prefix prov: &lt;http://www.w3.org/ns/prov#&gt;.</xsl:text> 
+        <xsl:value-of select="$n"/>
+        <xsl:text>@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;.</xsl:text>
+        <xsl:value-of select="$n"/>
+        <xsl:text>@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
     </xsl:template>
     
