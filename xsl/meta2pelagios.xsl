@@ -7,16 +7,36 @@
     exclude-result-prefixes="xs math xd"
     version="2.0">
 
+<!-- 
+    Filename: meta2pelagios.xsl
+    Title: AWIB Converter XSLT: Metadata to Pelagios Annotations
+    By: Tom Elliott
+    Created on: May 7, 2013
+    Source URL: https://github.com/paregorios/awib/blob/master/xsl/meta2pelagios.xsl
+    Copyright: 2013 New York University
+    License: This work is licensed under a Creative Commons Attribution 3.0 United States License: 
+        http://creativecommons.org/licenses/by/3.0/us/
+    Description: This XSLT crawls through a directory full of XML metadata files for the Ancient
+        World Image Bank. It opens each such file and writes corresponding RDF annotations to the
+        text output. These annotations are intended primarily for use with the Pelagios Project
+        network (http://pelagios-project.blogspot.com/) and use information in the metadata to
+        describe relationships between the AWIB images and historical/archaeological places from
+        the ancient world as cataloged by the Pleiades Project (http://pleiades.stoa.org). The 
+        format of the AWIB metadata files is idiosyncratic and undocumented, but conforms to a 
+        schema (https://github.com/paregorios/awib/blob/master/meta/meta-schema.rnc).
+        The annotations emitted conform to the Open Annotation Data Model, Community Draft, 
+        8 February 2013 (http://www.openannotation.org/spec/core/20130208/index.html) and to 
+        Pelagios guidance for "Publishing as RDF" as current on 7 May 2013 (see:
+        https://github.com/pelagios/pelagios-cookbook/wiki/How-Can-I-Join%3F#3-publishing-as-rdf).
+        Where the OA Data Model and the Pelagios guidance are in conflict, this script defers
+        to the OA Data Model (which is more recent than the last revision of the Pelagios
+        guidance). All the annotations are output in a single, large file using the Turtle
+        syntax and UTF-8 character encodings.    
+    -->
+    
     <xsl:import href="stringvars.xsl"/>
     <xsl:import href="getimageid.xsl"/>
     <xsl:import href="emitgeouri.xsl"/>
-    <xd:doc scope="stylesheet">
-        <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> May 7, 2013</xd:p>
-            <xd:p><xd:b>Author:</xd:b> Tom Elliott</xd:p>
-            <xd:p>Generate Pelagios annotations from AWIB XML descriptive metadata</xd:p>
-        </xd:desc>
-    </xd:doc>
     
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="awibbaseuri">http://isaw.nyu.edu/awib/images/</xsl:param>
