@@ -41,7 +41,10 @@
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="awibbaseuri">http://isaw.nyu.edu/awib/images/</xsl:param>
     <xsl:param name="agenturi">https://github.com/paregorios/awib/blob/master/xsl/meta2pelagios.xsl</xsl:param>
-    <xsl:param name="agentname">meta2pelagios</xsl:param>
+    <xsl:param name="agentname">AWIB Converter XSLT: Metadata to Pelagios Annotations (meta2pelagios.xsl)</xsl:param>
+    <xsl:param name="agentcreatoruri">http://www.paregorios.org/me</xsl:param>
+    <xsl:param name="agentcreatorname">Tom Elliott</xsl:param>
+    <xsl:param name="agentcreatorhomepage">http://www.paregorios.org/</xsl:param>
     
     <xsl:output method="text" encoding="UTF-8"/>
     
@@ -51,7 +54,14 @@
     </xsl:variable>
     
     <xsl:template name="makep">
+        <!-- ADD: header comments here -->
+        
+        <!-- namespace prefixes -->
         <xsl:call-template name="prefixes"/>
+        
+        <!-- information about the serialization agent and its provenance --> 
+        <xsl:value-of select="$n"/>
+        <xsl:text># information about the serialization agent and its provenance</xsl:text>
         <xsl:value-of select="$n"/>
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$agenturi"/>
@@ -60,13 +70,43 @@
         <xsl:text>foaf:name "</xsl:text>
         <xsl:value-of select="$agentname"/>
         <xsl:text>"</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:creator &lt;</xsl:text>
+        <xsl:value-of select="$agentcreatoruri"/>
+        <xsl:text>&gt;</xsl:text>
         <xsl:value-of select="$pn"/>
+        
+        <!-- ADD: persons and organizations mentioned in this document -->
+        <xsl:value-of select="$n"/>
+        <xsl:text># persons and organizations mentioned in this document</xsl:text>
+        <xsl:value-of select="$n"/>
+        <xsl:text>&lt;</xsl:text>        
+        <xsl:value-of select="$agentcreatoruri"/>
+        <xsl:text>&gt; a foaf:Person</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>foaf:name "</xsl:text>
+        <xsl:value-of select="$agentcreatorname"/>
+        <xsl:text>"</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>foaf:homepage &lt;</xsl:text>
+        <xsl:value-of select="$agentcreatorhomepage"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:value-of select="$pn"/>
+        
+        <!-- define media type for flickr pages -->
+        <xsl:value-of select="$n"/>
+        <xsl:text># defining the media type for Flickr pages in accordance with Dublin Core terms spec</xsl:text>
+        <xsl:value-of select="$n"/>        
         <xsl:text>&lt;urn:awib:types:flickrpage&gt; a dcterms:MediaTypeOrExtent</xsl:text>
         <xsl:value-of select="$snt"/>
         <xsl:text>rdf:value "text/html"</xsl:text>
         <xsl:value-of select="$snt"/>
         <xsl:text>rdfs:label "HTML"</xsl:text>
         <xsl:value-of select="$pn"/>
+        
+        <!-- output pelagios annotations for all content -->
+        <xsl:value-of select="$n"/>
+        <xsl:text># Pelagios annotations for all published AWIB content</xsl:text>
         <xsl:value-of select="$n"/>
         <xsl:message>trying "<xsl:value-of select="$collquery"/>"</xsl:message>
         <xsl:for-each select="collection($collquery)">
