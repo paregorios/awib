@@ -1,0 +1,109 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://viaf.org/viaf/26717884/> a foaf:Person ;
+	foaf:name "Alexandra Retzleff" ;
+	foaf:primaryTopicOf <http://www.linkedin.com/pub/alexandra-retzleff/9/160/1b2> , <https://plus.google.com/113976032608070867741/about> .
+
+<urn:awib:person:allison-kidd> a foaf:Person ;
+	foaf:name "Allison Kidd" ;
+	foaf:primaryTopicOf <http://www.linkedin.com/pub/allison-kidd/19/b35/247> , <https://plus.google.com/106592820826539004920/about> , <https://twitter.com/lifeofakidd> .
+
+<urn:awib:person:anne-chen> a foaf:Person ;
+	foaf:name "Anne Chen" ;
+	foaf:primaryTopicOf <http://www.linkedin.com/profile/view?id=76160245> , <http://columbia.academia.edu/AnneHunnellChen> .
+
+<http://viaf.org/viaf/14839257/> a foaf:Person ;
+	foaf:name "Carolyn Connor" ;
+	foaf:primaryTopicOf <http://classics.unc.edu/people/connor> .
+
+<urn:awib:person:elizabeth-sarlitto> a foaf:Person ;
+	foaf:name "Elizabeth Sarlitto" .
+
+<http://viaf.org/viaf/9516413/> a foaf:Person ;
+	foaf:name "Eric Dugdale" ;
+	foaf:primaryTopicOf <https://gustavus.edu/profiles/edugdale> , <http://gustavus.academia.edu/EricDugdale> , <https://plus.google.com/114240700125757769318/about> .
+
+<urn:awib:person:erika-rockett> a foaf:Person ;
+	foaf:name "Erika Rockett" .
+
+<urn:awib:person:erik-hermans> a foaf:Person ;
+	foaf:name "Erik Hermans" ;
+	foaf:primaryTopicOf <http://isaw.nyu.edu/people/students/erik-hermans> , <http://nyu.academia.edu/ErikHermans> .
+
+<http://viaf.org/viaf/33149624> a foaf:Person ;
+	foaf:name "George W. Houston" ;
+	foaf:primaryTopicOf <http://classics.unc.edu/people/houston> .
+
+<urn:awib:person:claytor-graham> a foaf:Person ;
+	foaf:name "Graham Claytor" .
+
+<urn:awib:person:harry-meyer> a foaf:Person ;
+	foaf:name "Harry Meyer" .
+
+<urn:awib:person:irene-soto> a foaf:Person ;
+	foaf:name "Irene Soto" ;
+	foaf:primaryTopicOf <http://isaw.nyu.edu/people/students/irene-soto> , <http://www.linkedin.com/profile/view?id=81816898> , <http://nyu.academia.edu/IreneSoto> , <https://plus.google.com/u/0/117799801338847067350/about> , <https://twitter.com/IreneSotoMarin> .
+
+<urn:awib:person:fernandez-iris> a foaf:Person ;
+	foaf:name "Iris Fernandez" ;
+	foaf:primaryTopicOf <http://www.linkedin.com/profile/view?id=164204309> , <https://plus.google.com/u/0/102922060417489582378/about> , <https://twitter.com/57IMF88> .
+
+<urn:awib:person:hansen-john> a foaf:Person ;
+	foaf:name "John Hansen" .
+
+<urn:awib:person:john-sarlitto> a foaf:Person ;
+	foaf:name "John Sarlitto" .
+
+<urn:awib:person:kathryn-mcdonnell> a foaf:Person ;
+	foaf:name "Kathryn McDonnell" ;
+	foaf:primaryTopicOf <http://www.classics.ucla.edu/people/faculty/kmcdonnell/> .
+
+<urn:awib:person:giannini-kyera> a foaf:Person ;
+	foaf:name "Kyera Giannini" ;
+	foaf:primaryTopicOf <http://www.linkedin.com/pub/kyera-giannini/15/7a6/b6a> .
+
+<urn:awib:person:haney-lisa> a foaf:Person ;
+	foaf:name "Lisa Haney" .
+
+<urn:awib:person:mary-sarlitto> a foaf:Person ;
+	foaf:name "Mary Sarlitto" .
+
+<urn:awib:person:nagy-nate> a foaf:Person ;
+	foaf:name "Nate Nagy" ;
+	foaf:primaryTopicOf <http://www.quirky.com/users/136073> , <http://www.linkedin.com/in/nathanielnagy> , <https://plus.google.com/115544208350462580074/about> , <https://twitter.com/BuildsAirships> .
+
+<http://viaf.org/viaf/90587994/> a foaf:Person ;
+	foaf:name "Nicola Aravecchia" ;
+	foaf:primaryTopicOf <http://isaw.nyu.edu/people/faculty/nicola-aravecchia> .
+
+<http://viaf.org/viaf/104306181/> a foaf:Person ;
+	foaf:name "Roger Bagnall" ;
+	foaf:primaryTopicOf <http://isaw.nyu.edu/director/people/faculty/roger-bagnall> .
+
+<urn:awib:person:roko-rumora> a foaf:Person ;
+	foaf:name "Roko Rumora" ;
+	foaf:primaryTopicOf <http://www.linkedin.com/in/rokorumora> , <https://twitter.com/rokorumora> .
+
+<urn:awib:person:ferguson-sarah> a foaf:Person ;
+	foaf:name "Sarah Ferguson" .
+
+<urn:awib:person:mcdonough-scott> a foaf:Person ;
+	foaf:name "Scott McDonough" ;
+	foaf:primaryTopicOf <http://www.wpunj.edu/cohss/departments/history/faculty/mcdonough.dot> , <http://wpunj.academia.edu/ScottMcDonough> , <https://plus.google.com/103925748694772684706/about> .
+
+<http://viaf.org/viaf/220831018/> a foaf:Person ;
+	foaf:name "Sebastian Heath" ;
+	foaf:primaryTopicOf <http://isaw.nyu.edu/people/faculty/sebastian-heath> , <http://numismatics.org/About/SebastianHeath> , <http://nyu.academia.edu/SebastianHeath> , <https://plus.google.com/117071056667114820075/about> , <https://twitter.com/sebhth> , <http://sebastianheath.com/> .
+
+<urn:awib:person:elliott-tom> a foaf:Person ;
+	foaf:name "Tom Elliott" ;
+	foaf:primaryTopicOf <http://isaw.nyu.edu/people/staff/tom-elliott> , <http://www.linkedin.com/in/paregorios> , <http://nyu.academia.edu/TomElliott> , <https://plus.google.com/116427745746305527780/posts> , <https://twitter.com/paregorios> , <http://www.paregorios.org/me> .
+
+<urn:awib:person:iii-west-william> a foaf:Person ;
+	foaf:name "William West III" ;
+	foaf:primaryTopicOf <http://classics.unc.edu/people/west> .
