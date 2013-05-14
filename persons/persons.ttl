@@ -100,7 +100,7 @@
 	foaf:name "Sebastian Heath" ;
 	foaf:primaryTopicOf <http://isaw.nyu.edu/people/faculty/sebastian-heath> , <http://numismatics.org/About/SebastianHeath> , <http://nyu.academia.edu/SebastianHeath> , <https://plus.google.com/117071056667114820075/about> , <https://twitter.com/sebhth> , <http://sebastianheath.com/> .
 
-<urn:awib:person:elliott-tom> a foaf:Person ;
+<http://www.paregorios.org/me> a foaf:Person ;
 	foaf:name "Tom Elliott" ;
 	foaf:primaryTopicOf <http://isaw.nyu.edu/people/staff/tom-elliott> , <http://www.linkedin.com/in/paregorios> , <http://nyu.academia.edu/TomElliott> , <https://plus.google.com/116427745746305527780/posts> , <https://twitter.com/paregorios> , <http://www.paregorios.org/me> .
 
