@@ -55,10 +55,9 @@
     <xsl:import href="getimageid.xsl"/>
     <xsl:import href="emitgeouri.xsl"/>
     
-    <xsl:param name="uribase">http://isaw.nyu.edu/awib/</xsl:param>
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="peoplesource">../persons/persons.ttl</xsl:param>
-    <xsl:param name="awibbaseuri">http://isaw.nyu.edu/awib/images/</xsl:param>
+    <xsl:param name="awibbaseuri">http://isaw.nyu.edu/awib/</xsl:param>
     <xsl:param name="agenturi">https://github.com/paregorios/awib/blob/master/xsl/meta2pelagios.xsl</xsl:param>
     <xsl:param name="agentname">AWIB Converter XSLT: Metadata to Pelagios Annotations (meta2pelagios.xsl)</xsl:param>
     <xsl:param name="agentcreatoruri">http://www.paregorios.org/me</xsl:param>
@@ -70,6 +69,11 @@
     <xsl:variable name="collquery">
         <xsl:value-of select="$sourcedir"/>
         <xsl:text>?select=*.xml</xsl:text>
+    </xsl:variable>
+    
+    <xsl:variable name="pagetype">
+        <xsl:value-of select="$awibbaseuri"/>
+        <xsl:text>type/html</xsl:text>
     </xsl:variable>
     
     <xsl:template name="makep">
@@ -98,17 +102,16 @@
         <!-- persons and organizations mentioned in this document -->
         <xsl:value-of select="$n"/>
         <xsl:text># persons and organizations mentioned in this document</xsl:text>
-        <xsl:text>foaf:homepage &lt;</xsl:text>
-        <xsl:value-of select="$agentcreatorhomepage"/>
-        <xsl:text>&gt;</xsl:text>
-        <xsl:value-of select="$pn"/>
+        <xsl:value-of select="$n"/>
         <xsl:value-of select="unparsed-text($peoplesource, 'utf-8')"/>
         
         <!-- define media type for flickr pages -->
         <xsl:value-of select="$n"/>
         <xsl:text># defining the media type for Flickr pages in accordance with Dublin Core terms spec</xsl:text>
         <xsl:value-of select="$n"/>        
-        <xsl:text>&lt;urn:awib:types:flickrpage&gt; a dcterms:MediaTypeOrExtent</xsl:text>
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="$pagetype"/>
+        <xsl:text>&gt; a dcterms:MediaTypeOrExtent</xsl:text>
         <xsl:value-of select="$snt"/>
         <xsl:text>rdf:value "text/html"</xsl:text>
         <xsl:value-of select="$snt"/>
@@ -134,8 +137,15 @@
     </xsl:template>
     
     <xsl:template match="info[@type='isaw']">
+        
         <xsl:variable name="imageid">
             <xsl:call-template name="getimageid"/>
+        </xsl:variable>
+        
+        <xsl:variable name="imageuri">
+            <xsl:value-of select="$awibbaseuri"/>
+            <xsl:text>image/</xsl:text>
+            <xsl:value-of select="$imageid"/>
         </xsl:variable>
         
         <xsl:variable name="latest">
@@ -148,13 +158,12 @@
         </xsl:variable>
         
         <xsl:variable name="oaid">
-            <xsl:value-of select="$awibbaseuri"/>
-            <xsl:value-of select="$imageid"/>
+            <xsl:value-of select="$imageuri"/>
             <xsl:text>/anno/</xsl:text>
             <xsl:value-of select="$latest"/>
         </xsl:variable>
         
-        <xsl:variable name="photouri">
+        <xsl:variable name="flickruri">
             <xsl:variable name="url" select="//info[@type='isaw']/flickr-url"/>
             <xsl:choose>
                 <xsl:when test="contains($url, '/in/set')">
@@ -183,10 +192,12 @@
         <xsl:value-of select="$geouri"/>
         <xsl:text>&gt;</xsl:text>
         
+        <!-- add more bodies for the rest of the metadata here? -->
+        
         <xsl:value-of select="$snt"/>
         <xsl:text>oac:hasTarget </xsl:text>
         <xsl:text>&lt;</xsl:text>
-        <xsl:value-of select="$photouri"/>
+        <xsl:value-of select="$imageuri"/>
         <xsl:text>&gt;</xsl:text>
         
         <xsl:value-of select="$snt"/>
@@ -200,18 +211,27 @@
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="current-dateTime()"/>
         <xsl:text>&gt;</xsl:text>
-        
         <xsl:value-of select="$pn"/>
         
-        <!-- indicate the types -->
+        
+        <!-- provide relevant information about the base and target -->
         <xsl:value-of select="$n"/>
         <xsl:text>&lt;</xsl:text>
-        <xsl:value-of select="$photouri"/>
+        <xsl:value-of select="$imageuri"/>
         <xsl:text>&gt; a dctypes:Image</xsl:text>
         <xsl:value-of select="$snt"/>
-        <xsl:text>dcterms:format &lt;urn:awib:types:flickrpage&gt;</xsl:text>
+        <xsl:text>foaf:primaryTopicOf &lt;</xsl:text>
+        <xsl:value-of select="$flickruri"/>
+        <xsl:text>&gt;</xsl:text>
         <xsl:value-of select="$pn"/>
-        <xsl:value-of select="$n"/>
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="$flickruri"/>        
+        <xsl:text>&gt; a dctypes:Text</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:format &lt;</xsl:text>
+        <xsl:value-of select="$pagetype"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:value-of select="$pn"/>
         
     </xsl:template>
     
