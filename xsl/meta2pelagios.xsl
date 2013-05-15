@@ -57,6 +57,8 @@
     <xsl:import href="getptitle.xsl"/>
     <xsl:import href="getnamestring.xsl"/>
     <xsl:import href="getstandardname.xsl"/>
+    <xsl:import href="attributeannotation.xsl"/>
+    <xsl:import href="getpersonuri.xsl"/>
     
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="peoplesource">../persons/persons.ttl</xsl:param>
@@ -222,6 +224,8 @@
         </xsl:call-template>
         <xsl:text>'."</xsl:text>
         
+        <xsl:value-of select="$snt"/>
+        <xsl:text>oac:motivatedby oac:linking </xsl:text>
         
         <xsl:value-of select="$snt"/>
         <xsl:text>oac:hasBody </xsl:text>
@@ -236,6 +240,8 @@
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$imageuri"/>
         <xsl:text>&gt;</xsl:text>
+        
+        <xsl:call-template name="attributeannotation"/>
         
         <xsl:value-of select="$snt"/>
         <xsl:text>oac:serializedBy </xsl:text>
