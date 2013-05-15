@@ -408,6 +408,8 @@
     <xsl:template name="prefixes">
         <xsl:text>@prefix dcterms: &lt;http://purl.org/dc/terms/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
+        <xsl:text>@prefix dctypes: &lt;http://purl.org/dc/dcmitype/&gt;.</xsl:text>
+        <xsl:value-of select="$n"/>
         <xsl:text>@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
         <xsl:text>@prefix oac: &lt;http://www.openannotation.org/ns/&gt;.</xsl:text>
