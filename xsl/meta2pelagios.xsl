@@ -38,7 +38,9 @@
     <xsl:import href="getimageid.xsl"/>
     <xsl:import href="emitgeouri.xsl"/>
     
+    <xsl:param name="uribase">http://isaw.nyu.edu/awib/</xsl:param>
     <xsl:param name="sourcedir">../meta/</xsl:param>
+    <xsl:param name="peoplesource">../persons/persons.ttl</xsl:param>
     <xsl:param name="awibbaseuri">http://isaw.nyu.edu/awib/images/</xsl:param>
     <xsl:param name="agenturi">https://github.com/paregorios/awib/blob/master/xsl/meta2pelagios.xsl</xsl:param>
     <xsl:param name="agentname">AWIB Converter XSLT: Metadata to Pelagios Annotations (meta2pelagios.xsl)</xsl:param>
@@ -79,19 +81,11 @@
         <!-- ADD: persons and organizations mentioned in this document -->
         <xsl:value-of select="$n"/>
         <xsl:text># persons and organizations mentioned in this document</xsl:text>
-        <xsl:value-of select="$n"/>
-        <xsl:text>&lt;</xsl:text>        
-        <xsl:value-of select="$agentcreatoruri"/>
-        <xsl:text>&gt; a foaf:Person</xsl:text>
-        <xsl:value-of select="$snt"/>
-        <xsl:text>foaf:name "</xsl:text>
-        <xsl:value-of select="$agentcreatorname"/>
-        <xsl:text>"</xsl:text>
-        <xsl:value-of select="$snt"/>
         <xsl:text>foaf:homepage &lt;</xsl:text>
         <xsl:value-of select="$agentcreatorhomepage"/>
         <xsl:text>&gt;</xsl:text>
         <xsl:value-of select="$pn"/>
+        <xsl:value-of select="unparsed-text($peoplesource, 'utf-8')"/>
         
         <!-- define media type for flickr pages -->
         <xsl:value-of select="$n"/>
