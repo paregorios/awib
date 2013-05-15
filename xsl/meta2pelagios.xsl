@@ -250,10 +250,9 @@
         <xsl:text>&gt;</xsl:text>
         
         <xsl:value-of select="$snt"/>
-        <xsl:text>oac:serializedAt </xsl:text>
-        <xsl:text>&lt;</xsl:text>
+        <xsl:text>oac:serializedAt "</xsl:text>
         <xsl:value-of select="current-dateTime()"/>
-        <xsl:text>&gt;</xsl:text>
+        <xsl:text>"</xsl:text>
         <xsl:value-of select="$pn"/>
         
         
