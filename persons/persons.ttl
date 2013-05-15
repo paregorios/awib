@@ -76,7 +76,8 @@
 
 <http://viaf.org/viaf/104306181/> a foaf:Person ;
 	foaf:name "Roger Bagnall" ;
-	foaf:primaryTopicOf <http://isaw.nyu.edu/director/people/faculty/roger-bagnall> .
+	foaf:primaryTopicOf <http://isaw.nyu.edu/director/people/faculty/roger-bagnall>, <http://en.wikipedia.org/wiki/Roger_S._Bagnall> ;
+	owl:sameAs <http://dbpedia.org/resource/Roger_S._Bagnall> .
 
 <http://isaw.nyu.edu/awib/person/roko-rumora> a foaf:Person ;
 	foaf:name "Roko Rumora" ;
@@ -100,3 +101,8 @@
 <http://isaw.nyu.edu/awib/person/iii-west-william> a foaf:Person ;
 	foaf:name "William West III" ;
 	foaf:primaryTopicOf <http://classics.unc.edu/people/west> .
+	
+<http://isaw.nyu.edu#this> a foaf:Organization ;
+    foaf:name "Institute for the Study of the Ancient World" ;
+    foaf:primaryTopicOf <http://isaw.nyu.edu>, <http://en.wikipedia.org/wiki/Institute_for_the_Study_of_the_Ancient_World> ;
+    owl:sameAs <http://dbpedia.org/resource/Institute_for_the_Study_of_the_Ancient_World> .

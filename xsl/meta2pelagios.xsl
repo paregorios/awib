@@ -62,8 +62,8 @@
     <xsl:param name="agenturi">https://github.com/paregorios/awib/blob/master/xsl/meta2pelagios.xsl</xsl:param>
     <xsl:param name="agentname">AWIB Converter XSLT: Metadata to Pelagios Annotations (meta2pelagios.xsl)</xsl:param>
     <xsl:param name="agentcreatoruri">http://www.paregorios.org/me</xsl:param>
-    <xsl:param name="agentcreatorname">Tom Elliott</xsl:param>
-    <xsl:param name="agentcreatorhomepage">http://www.paregorios.org/</xsl:param>
+    <xsl:param name="agentpublisheruri">http://isaw.nyu.edu#this</xsl:param>
+    
     
     <xsl:output method="text" encoding="UTF-8"/>
     
@@ -97,6 +97,10 @@
         <xsl:value-of select="$snt"/>
         <xsl:text>dcterms:creator &lt;</xsl:text>
         <xsl:value-of select="$agentcreatoruri"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:value-of select="$snt"/>
+        <xsl:text>dcterms:publisher &lt;</xsl:text>
+        <xsl:value-of select="$agentpublisheruri"/>
         <xsl:text>&gt;</xsl:text>
         <xsl:value-of select="$pn"/>
         
@@ -448,6 +452,8 @@
         <xsl:text>@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
         <xsl:text>@prefix oac: &lt;http://www.openannotation.org/ns/&gt;.</xsl:text>
+        <xsl:value-of select="$n"/>
+        <xsl:text>@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt;.</xsl:text>
         <xsl:value-of select="$n"/>
         <xsl:text>@prefix prov: &lt;http://www.w3.org/ns/prov#&gt;.</xsl:text> 
         <xsl:value-of select="$n"/>
