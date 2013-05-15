@@ -16,8 +16,10 @@
     
     <xsl:template name="getptitle">
         <xsl:param name="puri"/>
+        <xsl:text>foo</xsl:text>
         <!-- supposedly saxon caches calls to document() with same uris, so hopefully this won't be as 
             irresponsible as it looks -->
+        <!--
         <xsl:if test="$puri != ''">
             <xsl:variable name="prdfuri">
                 <xsl:value-of select="$puri"/>
@@ -36,6 +38,6 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
-
+        -->
     </xsl:template>
 </xsl:stylesheet>

@@ -55,6 +55,8 @@
     <xsl:import href="getimageid.xsl"/>
     <xsl:import href="emitgeouri.xsl"/>
     <xsl:import href="getptitle.xsl"/>
+    <xsl:import href="getnamestring.xsl"/>
+    <xsl:import href="getstandardname.xsl"/>
     
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="peoplesource">../persons/persons.ttl</xsl:param>
@@ -206,16 +208,12 @@
                 <xsl:if test="not(following-sibling::photographer) and count(../photographer) &gt; 1">
                     <xsl:text> and </xsl:text>
                 </xsl:if>
-                <xsl:choose>
-                    <xsl:when test="name">
-                        <xsl:value-of select="normalize-space(normalize-unicode(name, 'NFKC'))"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="normalize-space(normalize-unicode(given-name, 'NFKC'))"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="normalize-space(normalize-unicode(family-name, 'NFKC'))"/>
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:variable name="namestring">
+                    <xsl:call-template name="getnamestring"/>
+                </xsl:variable>
+                <xsl:call-template name="getstandardname">
+                    <xsl:with-param name="namestring" select="$namestring"/>
+                </xsl:call-template>
             </xsl:for-each>
         </xsl:if>
         <xsl:text> is related to an ancient spatial feature entitled '</xsl:text>

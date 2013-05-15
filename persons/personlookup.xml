@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <name>
+        <namestring>Alex Retzlef</namestring>
+        <personuri>http://viaf.org/viaf/26717884/</personuri>
+        <standardname>Alexandra Retzleff</standardname>
+    </name>
+    <name>
+        <namestring>Alex Retzleff</namestring>
+        <personuri>http://viaf.org/viaf/26717884/</personuri>
+        <standardname>Alexandra Retzleff</standardname>
+    </name>
+    <name>
+        <namestring>Allison Kidd</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/allison-kidd</personuri>
+    </name>
+    <name>
+        <namestring>Anne Chen</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/anne-chen</personuri>
+    </name>
+    <name>
+        <namestring>C. Connor</namestring>
+        <personuri>http://viaf.org/viaf/14839257/</personuri>
+        <standardname>Carolyn Connor</standardname>
+    </name>
+    <name>
+        <namestring>Carolyn Connor</namestring>
+        <personuri>http://viaf.org/viaf/14839257/</personuri>
+    </name>
+    <name>
+        <namestring>Elizabeth Sarlitto</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/elizabeth-sarlitto</personuri>
+    </name>
+    <name>
+        <namestring>Eric Dugdale</namestring>
+        <personuri>http://viaf.org/viaf/9516413/</personuri>
+    </name>
+    <name>
+        <namestring>Erik Hermans</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/erik-hermans</personuri>
+    </name>
+    <name>
+        <namestring>Erika Rockett</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/erika-rockett</personuri>
+    </name>
+    <name>
+        <namestring>George Houston</namestring>
+        <personuri>http://viaf.org/viaf/33149624</personuri>
+        <standardname>George W. Houston</standardname>
+    </name>
+    <name>
+        <namestring>George W. Houston</namestring>
+        <personuri>http://viaf.org/viaf/33149624</personuri>
+    </name>
+    <name>
+        <namestring>Graham Clayton</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/claytor-graham</personuri>
+        <standardname>Graham Claytor</standardname>
+    </name>
+    <name>
+        <namestring>Graham Claytor</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/claytor-graham</personuri>
+    </name>
+    <name>
+        <namestring>Harry Meyer</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/harry-meyer</personuri>
+    </name>
+    <name>
+        <namestring>Irene Soto</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/irene-soto</personuri>
+    </name>
+    <name>
+        <namestring>Iris Fernandez</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/fernandez-iris</personuri>
+    </name>
+    <name>
+        <namestring>John Hansen</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/hansen-john</personuri>
+    </name>
+    <name>
+        <namestring>John Sarlitto</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/john-sarlitto</personuri>
+    </name>
+    <name>
+        <namestring>K. McDonnell</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/kathryn-mcdonnell</personuri>
+        <standardname>Kathryn McDonnell</standardname>
+    </name>
+    <name>
+        <namestring>Katherine McDonnell</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/kathryn-mcdonnell</personuri>
+        <standardname>Kathryn McDonnell</standardname>
+    </name>
+    <name>
+        <namestring>Kathryn McDonnell</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/kathryn-mcdonnell</personuri>
+    </name>
+    <name>
+        <namestring>Kyera Giannini</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/giannini-kyera</personuri>
+    </name>
+    <name>
+        <namestring>Lisa Haney</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/haney-lisa</personuri>
+    </name>
+    <name>
+        <namestring>Mary Sarlitto</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/mary-sarlitto</personuri>
+    </name>
+    <name>
+        <namestring>Nate Nagy</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/nagy-nate</personuri>
+    </name>
+    <name>
+        <namestring>Nicola Aravecchia</namestring>
+        <personuri>http://viaf.org/viaf/90587994/</personuri>
+    </name>
+    <name>
+        <namestring>R Rumora</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/roko-rumora</personuri>
+        <standardname>Roko Rumora</standardname>
+    </name>
+    <name>
+        <namestring>Roger Bagnal</namestring>
+        <personuri>http://viaf.org/viaf/104306181/</personuri>
+        <standardname>Roger Bagnall</standardname>
+    </name>
+    <name>
+        <namestring>Roger Bagnall</namestring>
+        <personuri>http://viaf.org/viaf/104306181/</personuri>
+    </name>
+    <name>
+        <namestring>Roko Rumora</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/roko-rumora</personuri>
+    </name>
+    <name>
+        <namestring>Sarah Ferguson</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/ferguson-sarah</personuri>
+    </name>
+    <name>
+        <namestring>Scott McDonough</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/mcdonough-scott</personuri>
+    </name>
+    <name>
+        <namestring>Sebastian Heath</namestring>
+        <personuri>http://viaf.org/viaf/220831018/</personuri>
+    </name>
+    <name>
+        <namestring>Tom Eliott</namestring>
+        <personuri>http://www.paregorios.org/me</personuri>
+        <standardname>Tom Elliott</standardname>
+    </name>
+    <name>
+        <namestring>Tom Elliott</namestring>
+        <personuri>http://www.paregorios.org/me</personuri>
+    </name>
+    <name>
+        <namestring>Tome Elliott</namestring>
+        <personuri>http://www.paregorios.org/me</personuri>
+        <standardname>Tom Elliott</standardname>
+    </name>
+    <name>
+        <namestring>William III West</namestring>
+        <personuri>http://isaw.nyu.edu/awib/person/iii-west-william</personuri>
+        <standardname>William West III</standardname>
+    </name>
+</persons>
