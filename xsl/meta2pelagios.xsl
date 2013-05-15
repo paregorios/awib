@@ -78,7 +78,7 @@
         <xsl:text>&gt;</xsl:text>
         <xsl:value-of select="$pn"/>
         
-        <!-- ADD: persons and organizations mentioned in this document -->
+        <!-- persons and organizations mentioned in this document -->
         <xsl:value-of select="$n"/>
         <xsl:text># persons and organizations mentioned in this document</xsl:text>
         <xsl:text>foaf:homepage &lt;</xsl:text>
