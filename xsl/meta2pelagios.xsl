@@ -187,6 +187,35 @@
         <xsl:text>&gt; a oac:Annotation</xsl:text>
         
         <xsl:value-of select="$snt"/>
+        <xsl:text>rdfs:label "Photo entitled '</xsl:text>
+        <xsl:value-of select="normalize-space(title)"/>
+        <xsl:text>'</xsl:text>
+        <xsl:if test="photographer[*[1]!='']">
+            <xsl:text> by </xsl:text>
+            <xsl:for-each select="photographer">
+                <!-- replace all this with normalized name lookups? -->
+                <xsl:if test="preceding-sibling::photographer and count(../photographer) &gt; 2">
+                    <xsl:value-of select="$c"/>
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+                <xsl:if test="not(following-sibling::photographer) and count(../photographer) &gt; 1">
+                    <xsl:text> and </xsl:text>
+                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="name">
+                        <xsl:value-of select="normalize-space(normalize-unicode(name, 'NFKC'))"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="normalize-space(normalize-unicode(given-name, 'NFKC'))"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="normalize-space(normalize-unicode(family-name, 'NFKC'))"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:text>"</xsl:text>        
+        
+        <xsl:value-of select="$snt"/>
         <xsl:text>oac:hasBody </xsl:text>
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$geouri"/>
