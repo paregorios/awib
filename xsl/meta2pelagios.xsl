@@ -54,6 +54,7 @@
     <xsl:import href="stringvars.xsl"/>
     <xsl:import href="getimageid.xsl"/>
     <xsl:import href="emitgeouri.xsl"/>
+    <xsl:import href="getptitle.xsl"/>
     
     <xsl:param name="sourcedir">../meta/</xsl:param>
     <xsl:param name="peoplesource">../persons/persons.ttl</xsl:param>
@@ -213,7 +214,12 @@
                 </xsl:choose>
             </xsl:for-each>
         </xsl:if>
-        <xsl:text>"</xsl:text>        
+        <xsl:text> is related to an ancient spatial feature entitled '</xsl:text>
+        <xsl:call-template name="getptitle">
+            <xsl:with-param name="puri" select="substring-before($geouri, '#this')"/>
+        </xsl:call-template>
+        <xsl:text>'."</xsl:text>
+        
         
         <xsl:value-of select="$snt"/>
         <xsl:text>oac:hasBody </xsl:text>
